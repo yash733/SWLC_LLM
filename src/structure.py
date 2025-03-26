@@ -6,8 +6,8 @@ from langgraph.graph import START, END, StateGraph
 from langgraph.checkpoint.memory import MemorySaver
 
 #----- Dependencies -----#
-from share import State, Feedback
-from log.logger import logging
+from src.share import State, Feedback
+from src.log.logger import logging
 
 #----- LLM -- Model -----#
 model = ChatGroq(model = "llama3-70b-8192")
@@ -23,10 +23,10 @@ os.environ['LANGCHAIN_PROJECT'] = 'llm-app'
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API_KEY')
 
-log1 = logging.getLogger('Update')
+log1 = logging.getLogger('Update-Structure')
 log1.setLevel(logging.DEBUG)
 
-log2 = logging.getLogger('Error')
+log2 = logging.getLogger('Error-Structure')
 log2.setLevel(logging.INFO)
 
 #----- Structure -----#
@@ -47,6 +47,9 @@ def User_Story(state: State):
         log1.info('Genrated - User Story')
     return {'user_story': res.content}
     #------ Interrupt will happen, input: user feedback -----#
+
+def User_Story_Sentiment(state: State):
+    return state
 
 def Sentiment(state: State):
     res = feed_back_model.invoke([
@@ -98,19 +101,23 @@ def Code_review(state: State):
     pass
 
 
-
 #----- Graph -----#
-def graph():
+def graph(state: State):
     graph_ = (
-        StateGraph
+        StateGraph(state)
         .add_node("User Story", User_Story)
+        .add_node("User Story Feedback",User_Story_Sentiment)
         .add_node("Blue Print", Create_Documentation)
         .add_node("System Feedback", System_FeedBack)
         .add_node("Generate Code", Generate_Code)
-        .add_conditional_edges("User Story", Sentiment, {'Approve': 'System Feedback', 'Rejected': 'User Story'})
+
+        .add_edge(START, "User Story")
+        .add_edge("User Story","User Story Feedback")
+        .add_conditional_edges("User Story Feedback", Sentiment, {'Approve': 'System Feedback', 'Rejected': 'User Story'})
         .add_edge("System Feedback", "Blue Print")
         .add_conditional_edges("Blue Print", Sentiment, {'Approve': 'Generate Code', 'Rejected': 'Blue Print'})
         .add_edge('Generate Code',END)
-        .compile(interrupt_after=[User_Story,Create_Documentation], checkpointer = MemorySaver())
+
+        .compile(interrupt_before=["User Story Feedback"], interrupt_after=["Blue Print"], checkpointer=MemorySaver())
     )
     return graph_
