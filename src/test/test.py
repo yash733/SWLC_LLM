@@ -18,14 +18,13 @@ graph.invoke(input=initial_input, config=config)
 #     pass
 test_log.debug('Interrupt after User_story')
     #--- Interrupt 
-state = graph.get_state(config)
-print(state.values.get('user_story'))
+state = graph.get_state(config)  # sanapshot
+# print(state)
+print('User story---------------------------------\n',state.values.get('user_story'))
+
 
 user_feedback = input('Enter user feedback: ')
 graph.update_state(config= config, values= {'user_feedback':user_feedback})
-state = graph.get_state(config)
-print(state.values.get("user_feedback"))
-
 
 
 graph.invoke(None, config=config)
@@ -34,17 +33,21 @@ graph.invoke(None, config=config)
 # test_log.debug('Interrupt after Blue Print')
 # #--- Interrupt after Create Blue Print
 state = graph.get_state(config)
+# print('\nSystem Feedback\n',state.values.get('user_story'))
+# print('\nUser Story after\n', state.values.get('user_story'))
+print('\nSystem Feedback----------------------\n', state.values.get('user_story'))
+print('\nBlue Print---------------------\n', state.values.get('blue_print'))
+# print('\n',state)
 
-print('System Feedback', state.values.get('system_feedback'))
-print('Blue Print', state.values.get('blue_print'))
 
-# user_feedback = input('Enter user feedback Blue print: ')
-# graph.update_state(config= config, values= {'user_feedback':user_feedback})
+user_feedback = input('Enter user feedback Blue print: ')
+graph.update_state(config= config, values= {'user_feedback':user_feedback})
 
+graph.invoke(None, config=config)
 # for state in graph.stream(None, config= config):
 #     pass
-
-# print('code',state['code'])
+state = graph.get_state(config)
+print('code --> \n',state.values.get('code'))
 
 from PIL import Image
 
