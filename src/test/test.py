@@ -6,48 +6,59 @@ test_log = logging.getLogger('Test_Run')
 test_log.setLevel(logging.DEBUG)
 
 user_requirement_input = 'Snake Game'
-initial_input = {'user_requirement_input': user_requirement_input}
+initial_input = {'user_requirement_input': user_requirement_input, 'tech_stack': ['python']}
 config = {'configurable':{'thread_id':'01'}}
 
 test_log.debug('Invoking')
 
 graph = graph(State)
 graph.invoke(input=initial_input, config=config)
-# for state in graph.stream(input= initial_input, config= config):
-#     # print('state', state)
-#     pass
+
 test_log.debug('Interrupt after User_story')
     #--- Interrupt 
 state = graph.get_state(config)  # sanapshot
-# print(state)
-print('User story---------------------------------\n',state.values.get('user_story'))
-
-
+print('User story: \n',state.values.get('user_story'))
 user_feedback = input('Enter user feedback: ')
 graph.update_state(config= config, values= {'user_feedback':user_feedback})
 
 
 graph.invoke(None, config=config)
-# for state in graph.stream(None, config= config):
-#     pass
-# test_log.debug('Interrupt after Blue Print')
-# #--- Interrupt after Create Blue Print
-state = graph.get_state(config)
-# print('\nSystem Feedback\n',state.values.get('user_story'))
-# print('\nUser Story after\n', state.values.get('user_story'))
-print('\nSystem Feedback----------------------\n', state.values.get('user_story'))
-print('\nBlue Print---------------------\n', state.values.get('blue_print'))
-# print('\n',state)
 
+    #--- Interrupt after Create Blue Print
+state = graph.get_state(config)
+print('='*100)
+print('\nSystem Feedback: \n', state.values.get('user_story'))
+print('='*100)
+print('\nBlue Print: \n', state.values.get('blue_print'))
 
 user_feedback = input('Enter user feedback Blue print: ')
 graph.update_state(config= config, values= {'user_feedback':user_feedback})
 
 graph.invoke(None, config=config)
-# for state in graph.stream(None, config= config):
-#     pass
+
 state = graph.get_state(config)
+print('='*100)
 print('code --> \n',state.values.get('code'))
+
+# print('X'*100)
+# print(state) # sanapshot
+
+graph.invoke(None, config=config)
+user_feedback = input('Enter user feedback Code Review: ')
+graph.update_state(config= config, values= {'user_feedback':user_feedback})
+
+graph.invoke(None, config=config)
+
+state = graph.get_state(config)
+print('='*100)
+print('\nTest Cases: \n',state.values.get('test_case'))
+print('='*100)
+print('\nFinal Code: \n',state.values.get('code'))
+print('='*100)
+print('\nFile Structure\n', state.values.get('file_structure'))
+
+
+
 
 from PIL import Image
 

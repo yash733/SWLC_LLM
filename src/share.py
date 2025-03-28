@@ -10,6 +10,8 @@ class State(TypedDict):
     code : str
     file_structure : str
     test_case : str
+    rout : Literal['problem','no problem']
+    tech_stack : list[str]
 
 #----- User Feedback Ananlysis -----#
 class Feedback(BaseModel):
@@ -17,13 +19,14 @@ class Feedback(BaseModel):
     user_feedback : str = Field(description= "Holds the feedback input gathered from client or agent generated")
 
 class Improvement(BaseModel):
-    problems : Literal['problem','no problem'] = Field(description= 'Problems found or not')
-    improvement_feedback : str = Field(description= "Contains Problem's along with threir solution.")
+    problems : Literal['problem','no-problem'] = Field(description= 'Problems found or not')
+    improvement_feedback : str = Field(description= "Contains proper in deatailed description of problem's along with threir solutions.")
 
 #----- Structuring Code Output -----#
 class Code(BaseModel):
-    code : str = Field(description= 'Holds the code written in each file.')
+    file_name : str = Field(description= 'name of code file')
+    code : str = Field(description= 'Code under the file_name.')
 
 class Code_Format(BaseModel):
-    file_structure : str = Field(description= 'Holds the file structure of the code in hierarchical format.')
-    code : list[Code] = Field(description= 'Collection of all code present under different files.')
+    file_structure : str = Field(description= 'Represents the file name in hierarchical format.')
+    code : list[Code] = Field(description= 'All code present under different files.')
