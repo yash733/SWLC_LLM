@@ -27,7 +27,7 @@ class UI:
 
         # Sidebar for metadata
         with st.sidebar:
-            GROK_API_KEY = st.text_input('Enter Groq API Key: ', type='password', value='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')
+            GROK_API_KEY = st.text_input('Enter Groq API Key: ', type='password', value='-------------Key-----------------')
             if st.button('Submit'):
                 setup_environment(GROK_API_KEY)
             
