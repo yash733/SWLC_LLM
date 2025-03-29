@@ -5,6 +5,7 @@ from langchain_groq import ChatGroq
 from langchain_ollama import OllamaLLM
 from langgraph.graph import START, END, StateGraph
 from langgraph.checkpoint.memory import MemorySaver
+import streamlit as st
 
 #----- Dependencies -----#
 from src.share import State, Feedback, Code_Format, Improvement
@@ -27,7 +28,7 @@ os.environ['LANGCHAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY')
 os.environ['LANGCHAIN_PROJECT'] = 'llm-app'
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 
-def setup_environment(groq_api_key):
+def setup_environment(groq_api_key='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'):
     os.environ['GROQ_API_KEY'] = groq_api_key
 
 #----- Logger Setup -----#
@@ -37,24 +38,9 @@ log1.setLevel(logging.DEBUG)
 log2 = logging.getLogger('Error-Structure')
 log2.setLevel(logging.INFO)
 
-# ----- Tracking State -----#
-
-class Tracking():
-    def __init__(self):
-        self.state = []
-
-    def add_state(self, name):
-        self.state.append(name)
-
-    def pop_last_state(self):
-        if self.state.pop:
-            return self.state.pop()
-        return None
-
 #----- Structure -----#
-
 def User_Story(state: State):
-    Tracking().add_state('User Story')
+    st.session_state.state = 'User Story'
     if state.get('user_story'):
         res = reasoning_model.invoke([ 
             {'role':'system', 'content':f"You are a Senior Product Owner. First analyzise the user story: {state['user_story']}. Now make necessary changes catering to "
@@ -72,7 +58,7 @@ def User_Story(state: State):
     
  #------ Interrupt will happen, input: user feedback -----#
 def User_Story_Sentiment(state: State):
-    Tracking().add_state('User Story Feedback')
+    st.session_state.state = 'User Story Feedback'
     log1.info('User_Story_Sentiment')
     return state
 
@@ -92,7 +78,7 @@ def Sentiment(state: State):
     return 'Rejected'
 
 def System_FeedBack(state: State):
-    Tracking().add_state('System Feedback')
+    st.session_state.state = 'System Feedback'
     res = model.invoke([
         {'role':'system', 'content':f'You are Senior most Product Owner'},
         {'role':'system', 'content':f'After mutiple talks with the client the user story looks like this:{state["user_story"]} as being a senior product owner '
@@ -102,7 +88,7 @@ def System_FeedBack(state: State):
     return {"user_story" : res.content}
 
 def Create_Documentation(state: State):
-    Tracking().add_state('Blue Print')
+    st.session_state.state = 'Blue Print'
     if state.get('blue_print'):
         res = model.invoke([
             {'role':'system', 'content':f'''Given the following user story:{state["user_story"]} and user feedback:{state["user_feedback"]}, 
@@ -119,12 +105,12 @@ def Create_Documentation(state: State):
     #------ Interrupt will happen, input: user feedback -----#
 
 def Create_Documentation_Feedback(state: State):
-    Tracking().add_state('Blur Print Feedback')
+    st.session_state.state = 'Blue Print Feedback'
     log1.info('Feedback - Blue Print')
     return state
 
 def Generate_Code(state: State):
-    Tracking().add_state('Generate Code')
+    st.session_state.state = 'Generate Code'
     if state.get('code'):
         res = code_format_model.invoke([
             {'role':'system', 'content':f'This is previous code: {state["code"]}. Now analyze the feedback prvided by tech lead and client: {state["user_feedback"]} to improve upon.'}
@@ -141,7 +127,7 @@ def Generate_Code(state: State):
 
  #------ Interrupt will happen, input: user feedback -----#
 def Code_review(state: State):
-    Tracking().add_state('Code Review')
+    st.session_state.state = 'Code Review'
     res = model.invoke([
         {'role':'system', 'content':f'You are tech lead "provide feedback". Analyse the code: {state["code"]} and file structure: {state["file_structure"]}. Now check for any sort of bugs, errors or issues \n'
         'in the code or file format/structuring. Also take client feedback under consideration if any perticular improvemnet is required.'},
@@ -151,7 +137,7 @@ def Code_review(state: State):
     return {'user_feedback' : res.content}
 
 def Security_review(state: State):
-    Tracking().add_state('Security Review')
+    st.session_state.state = 'Security Review'
     res = improvement_model.invoke([
         {'role':'system', 'content':f'You are Tech Lead, carefully analyze the the code: {state["code"]}, look for security lapes and its possibilites.'}
     ])
@@ -159,7 +145,7 @@ def Security_review(state: State):
     return {'user_feedback' : res.improvement_feedback, 'rout' : 'Approve' if res.problems == 'no-problem' else 'Rejected'}
 
 def Write_test_case(state: State):
-    Tracking().add_state('Writing Test Case')
+    st.session_state.state = 'Write Test Case'
     res = model.invoke([
         {'role':'system', 'content':f'Generate test cases undermining, client requiremrnt: {state["user_requirement_input"]}, user_story:{state["user_story"]} and software blue print:{state["blue_print"]}.\n'
         'Ensure the test cases cover all functional, edge, and boundary scenarios.'}
@@ -168,7 +154,7 @@ def Write_test_case(state: State):
     return {'test_case' : res.content}
 
 def Test_case_review(state: State):
-    Tracking().add_state('Test Case Review')
+    st.session_state.state = 'Test Case Review'
     res = improvement_model.invoke([
         {'role':'system', 'content':f'Run the test case:{state["test_case"]} on code:{state["code"]}. Provide feedback: If all test cases pass, write a positive comment saying "no-problem".\n'
         '- If any test cases fail, describe: 1. The number of test cases that failed. 2. The expected output vs. the actual output. 3. Any other relevant details to help improve the code.'}
@@ -177,7 +163,7 @@ def Test_case_review(state: State):
     return {'user_feedback' : res.improvement_feedback, 'rout' : 'Approve' if res.problems == 'no-problem' else 'Rejected'}
 
 def Quality_testing(state: State):
-    Tracking().add_state('Quality Testing')
+    st.session_state.state = 'Quality Test'
     res = improvement_model.invoke([
         {'role':'system', 'content':f'You are a Senior QA Engineer. Perform a detailed quality analysis of the following code: {state["code"]}\n'
         'Check for the following:\n'
@@ -191,7 +177,7 @@ def Quality_testing(state: State):
     return {'user_feedback': res.improvement_feedback, 'rout' : 'Approve' if res.problems == 'no-problem' else 'Rejected'}    
 
 def Final_Review(state: State):
-    Tracking().add_state('Final Review')
+    st.session_state.state = 'Final Review'
     res = code_format_model.invoke([
         {'role': 'system', 'content': f'You are a Senior Software Engineer. Perform a maintenance update on the following code:{state["code"]}'},
         {'role':'assistant', 'content': f'''Tasks to perform: 1. Refactor the code to improve readability, maintainability, and efficiency. 2. Update any outdated dependencies or libraries.

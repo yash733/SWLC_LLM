@@ -1,3 +1,6 @@
 __pycache__
 .env
 .venv
+uiconfig.ini
+uiconfig.py
+loadui.py
