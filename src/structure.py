@@ -13,8 +13,8 @@ from src.log.logger import logging
 
 #----- LLM -- Model -----#
 model = ChatGroq(model = "llama3-70b-8192")
-reasoning_model = OllamaLLM(model = "deepseek-r1:7b")
-phi_model = OllamaLLM(model = "Phi-4")
+#reasoning_model = OllamaLLM(model = "deepseek-r1:7b")
+#phi_model = OllamaLLM(model = "Phi-4")
 
    #----- LLM -- Structured -- Output -----#
 feed_back_model = model.with_structured_output(Feedback)
