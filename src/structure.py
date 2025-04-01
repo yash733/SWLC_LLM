@@ -13,6 +13,13 @@ from src.log.logger import logging
 
 #----- LLM -- Model -----#
 def get_model():
+    if "selected_llm" not in st.session_state or not st.session_state.selected_llm:
+        raise ValueError("Main LLM is not selected. Please select an LLM in the UI.")
+    
+    # Ensure selected_reasoning_llm is initialized
+    if "selected_reasoning_llm" not in st.session_state or not st.session_state.selected_reasoning_llm:
+        raise ValueError("Reasoning LLM is not selected. Please select a Reasoning LLM in the UI.")
+
     model = ChatGroq(model = st.session_state.selected_llm['model'])
     reasoning_model = OllamaLLM(model = st.session_state.selected_reasoning_llm['model'])
     # phi_model = OllamaLLM(model = "Phi-4")

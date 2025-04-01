@@ -13,7 +13,7 @@ class UI:
         if "state" not in st.session_state:
             st.session_state.state = 'START'
         if "work_flow" not in st.session_state:
-            st.session_state.work_flow = graph_node.graph(State)
+            st.session_state.work_flow = graph_node().graph(State)
         if "config" not in st.session_state:
             st.session_state.config = {'configurable': {'thread_id': f'{datetime.now()}'}}
         
@@ -146,5 +146,6 @@ class UI:
             st.write(state.values.get('code'))
             
 # Create an instance of the UI class and run the app
+
 ui = UI()
 ui.run()

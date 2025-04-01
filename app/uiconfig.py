@@ -2,7 +2,7 @@ from configparser import ConfigParser
 import os
 
 class Config:
-    def __init__(self,config_file=f"{os.getcwd()}\app\uiconfig.ini"):
+    def __init__(self,config_file=r"LLM_APP\app\uiconfig.ini"):
         self.config=ConfigParser()
         self.config.read(config_file)
 
