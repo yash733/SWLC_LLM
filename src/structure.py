@@ -13,13 +13,6 @@ from src.log.logger import logging
 
 #----- LLM -- Model -----#
 def get_model():
-    if "selected_llm" not in st.session_state or not st.session_state.selected_llm:
-        raise ValueError("Main LLM is not selected. Please select an LLM in the UI.")
-    
-    # Ensure selected_reasoning_llm is initialized
-    if "selected_reasoning_llm" not in st.session_state or not st.session_state.selected_reasoning_llm:
-        raise ValueError("Reasoning LLM is not selected. Please select a Reasoning LLM in the UI.")
-
     model = ChatGroq(model = st.session_state.selected_llm['model'])
     reasoning_model = OllamaLLM(model = st.session_state.selected_reasoning_llm['model'])
     # phi_model = OllamaLLM(model = "Phi-4")
@@ -128,28 +121,38 @@ class graph_node:
         st.session_state.state = 'Generate Code'
         if state.get('code'):
             res = self.code_format_model.invoke([
-                {'role':'system', 'content':f'This is previous code: {state["code"]}. Now analyze the feedback prvided by tech lead and client: {state["user_feedback"]} to improve upon.'}
+                {'role':'system', 'content':f'This is the previous code: {state["code"]}. Analyze the feedback provided by the tech lead and client: {state["user_feedback"]}, and improve the code accordingly. Ensure the updated code adheres to best practices, is optimized for performance, and addresses all feedback points.'}
             ])
             log1.info('Feedback - Generate Code')
         
         else:
             res = self.code_format_model.invoke([
-                {'role':'system','content':f'Setup file structure and write code using described tech strack:{state["tech_stack"]}, while keeping user story:{state["user_story"]} and design document:{state["blue_print"]}], in focus.'}
+                {'role':'system','content':f'Generate a complete file structure and write code using the described tech stack: {state["tech_stack"]}. Ensure the code aligns with the user story: {state["user_story"]} and the design document: {state["blue_print"]}. Provide the output in the following format:\n\n'
+                                      '1. File Structure: A hierarchical representation of the files.\n'
+                                      '2. Code: Include the code for each file in the structure.'}
             ])
             log1.info('Generate Code')
+    #----- File Name -----#
+            #file_name = [i.file_name for i in res.code]
         # return {'code': res.content}
+        # return {'code' : res.code, 'file_structure' : res.file_structure, 'file_name' : file_name}
         return {'code' : res.code, 'file_structure' : res.file_structure}
-
+    
     #------ Interrupt will happen, input: user feedback -----#
     def Code_review(self, state: State):
         st.session_state.state = 'Code Review'
         res = self.model.invoke([
-            {'role':'system', 'content':f'You are tech lead "provide feedback". Analyse the code: {state["code"]} and file structure: {state["file_structure"]}. Now check for any sort of bugs, errors or issues \n'
-            'in the code or file format/structuring. Also take client feedback under consideration if any perticular improvemnet is required.'},
-            {'role':'user', 'content':f'Client Feedback: {state["user_feedback"]}'}
-        ])
+            {'role': 'system', 'content': f'You are a tech lead. Analyze the following code: {state["code"]} and file structure: {state["file_structure"]}. Provide detailed feedback on the following aspects:\n'
+                                  '1. Bugs: Identify any bugs or errors in the code.\n'
+                                  '2. Performance: Highlight any performance bottlenecks and suggest optimizations.\n'
+                                  '3. Maintainability: Assess the code for readability, modularity, and adherence to best practices.\n'
+                                  '4. File Structure: Suggest improvements to the file structure based on the provided file names: {state["file_name"]}.\n\n'
+                                  'Ensure the feedback is actionable and includes specific recommendations for improvement.'},
+            {'role': 'user', 'content': f'Client Feedback: {state["user_feedback"]}'}
+            ])
+        file_structure = self.model.invoke([{'role':'system', 'content':f'Improve the file structure:{state["file_structure"]}, with the help of file name:{state["file_name"]}'}])
         log1.info('Code review')
-        return {'user_feedback' : res.content}
+        return {'user_feedback' : res.content, 'file_structure' : file_structure.content}
 
     def Security_review(self, state: State):
         st.session_state.state = 'Security Review'
@@ -194,11 +197,15 @@ class graph_node:
     def Final_Review(self, state: State):
         st.session_state.state = 'Final Review'
         res = self.code_format_model.invoke([
-            {'role': 'system', 'content': f'You are a Senior Software Engineer. Perform a maintenance update on the following code:{state["code"]}'},
-            {'role':'assistant', 'content': f'''Tasks to perform: 1. Refactor the code to improve readability, maintainability, and efficiency. 2. Update any outdated dependencies or libraries.
-            3. Ensure the code adheres to the latest industry standards and best practices. 4. Add or improve documentation for better understanding and future maintenance.
-            Provide the updated code.'''}
-        ])
+            {'role': 'system', 'content': f'You are a Senior Software Engineer. Perform a comprehensive maintenance update on the following code: {state["code"]}. Ensure the updated code meets the following criteria:\n'
+                                  '1. Readability: Refactor the code to improve readability and maintainability.\n'
+                                  '2. Efficiency: Optimize the code for better performance.\n'
+                                  '3. Standards: Ensure the code adheres to the latest industry standards and best practices.\n'
+                                  '4. Documentation: Add or improve inline comments and documentation for better understanding and future maintenance.\n\n'
+                                  'Provide the updated code in the following format:\n'
+                                  '1. Updated Code: Include the complete updated code.\n'
+                                  '2. Summary: Provide a summary of the changes made.'}
+            ])
         log1.info('Final Review')
         # return {'code': res.content}
         return {'code' : res.code, 'file_structure' : res.file_structure}
@@ -206,7 +213,7 @@ class graph_node:
 
 
     #----- Graph -----#
-    def graph(self, state: State):
+    def graph(self, state):
         graph_ = (
             StateGraph(state)
             .add_node("User Story", self.User_Story)

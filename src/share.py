@@ -9,6 +9,7 @@ class State(TypedDict):
     blue_print : str
     code : str
     file_structure : str
+    file_name : str
     test_case : str
     rout : Literal['problem','no problem']
     tech_stack : list[str]
@@ -28,5 +29,5 @@ class Code(BaseModel):
     code : str = Field(description= 'Code under the file_name.')
 
 class Code_Format(BaseModel):
-    file_structure : str = Field(description= 'Represents the file name in hierarchical format.')
-    code : list[Code] = Field(description= 'All code present under different files.')
+    file_structure : str = Field(description= 'Represents the file_name in hierarchical format.')
+    code : list[Code] = Field(description= 'All code present under different files, with file_name')
