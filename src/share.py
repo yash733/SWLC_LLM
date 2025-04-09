@@ -29,5 +29,5 @@ class Code(BaseModel):
     code : str = Field(description= 'Code under the file_name.')
 
 class Code_Format(BaseModel):
-    file_structure : str = Field(description= 'Represents the file_name in hierarchical format.')
-    code : list[Code] = Field(description= 'All code present under different files, with file_name')
+    file_structure : str = Field(description= 'Represents the file_name in hierarchical format in markdown.')
+    code : list[Code] = Field(description= 'All code present under different files, with file_name in markdown.')
