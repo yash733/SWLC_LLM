@@ -1,8 +1,6 @@
 #----- Libraries -----#
 import os
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
-from langchain_ollama import OllamaLLM
 from langgraph.graph import START, END, StateGraph
 from langgraph.checkpoint.memory import MemorySaver
 import streamlit as st
@@ -12,15 +10,14 @@ from src.share import State, Feedback, Code_Format, Improvement
 from src.log.logger import logging
 
 #----- LLM -- Model -----#
-def get_model():
-    model = ChatGroq(model = st.session_state.selected_llm['model'])
-    reasoning_model = OllamaLLM(model = st.session_state.selected_reasoning_llm['model'])
-    # phi_model = OllamaLLM(model = "Phi-4")
-    return model, reasoning_model
+# def get_model():
+#     model = ChatGroq(model = st.session_state.selected_llm['model'])
+#     reasoning_model = OllamaLLM(model = st.session_state.selected_reasoning_llm['model'])
+#     # phi_model = OllamaLLM(model = "Phi-4")
+#     return model, reasoning_model
 
    #----- LLM -- Structured -- Output -----#
-def structred_output_llm():
-    model, reasoning_model = get_model()
+def structred_output_llm(model, reasoning_model):
     feed_back_model = model.with_structured_output(Feedback)
     code_format_model = model.with_structured_output(Code_Format)
     improvement_model = model.with_structured_output(Improvement)
@@ -45,9 +42,10 @@ log_out.setLevel(logging.INFO)
 
 #----- Structure -----#
 class graph_node:
-    def __init__(self):
-        self.model, self.reasoning_model = get_model()
-        self.feed_back_model, self.code_format_model, self.improvement_model = structred_output_llm()
+    def __init__(self, model, reasoning_model):
+        self.model = model
+        self.reasoning_model = reasoning_model
+        self.feed_back_model, self.code_format_model, self.improvement_model = structred_output_llm(self.model, self.reasoning_model)
 
     #----------------------------------------
     def User_Story(self, state: State):
@@ -301,31 +299,7 @@ class graph_node:
                                         - Add inline comments and documentation where necessary.
                                         - Ensure the code is ready for deployment and includes any required configuration files.
                                         - Provide the output in **Markdown** format for easy readability.
-
-                                        ### **Example Output:**
-                                        1. File Structure:
-                                            - src/
-                                                - main.py
-                                                - utils.py
-                                                - config/
-                                                    - settings.py
-                                            - tests/
-                                                - test_main.py
                                         
-                                        2. File Name: src/main.py Code:
-                                            # Main application entry point
-                                            import utils
-
-                                            def main():
-                                                print("Hello, World!")
-
-                                            if __name__ == "__main__":
-                                                main()
-
-                                        3. File Name: src/utils.py Code:
-                                            # Utility functions
-                                            def add(a, b):
-                                                return a + b
                                         Generate the code based on the above requirements and format."""}
                     ])
             log1.info('Generate Code')

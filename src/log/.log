@@ -1,11 +1,243 @@
-2025-04-09 21:38:04,484 - CONFIG - DEBUG - Hackathon Project --
-2025-04-09 21:38:04,485 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-09 21:38:04,678 - UI - INFO - Headers
-2025-04-09 21:38:04,678 - CONFIG - DEBUG - ['Groq']
-2025-04-09 21:38:04,679 - UI - INFO - LLM-GROQ
-2025-04-09 21:38:04,681 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-09 21:38:04,682 - UI - INFO - llama3-8b-8192
-2025-04-09 21:38:04,683 - UI - ERROR - NO API KEY
-2025-04-09 21:38:04,683 - CONFIG - DEBUG - ['Ollama']
-2025-04-09 21:38:04,684 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-09 21:38:04,684 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:29:52,142 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:29:52,142 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:29:52,384 - UI - INFO - Headers
+2025-04-11 21:29:52,384 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:29:52,385 - UI - INFO - LLM-GROQ
+2025-04-11 21:29:52,385 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:29:52,385 - UI - INFO - llama3-8b-8192
+2025-04-11 21:29:52,953 - UI - ERROR - NO API KEY
+2025-04-11 21:29:52,953 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:29:52,953 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:29:53,481 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:29:58,283 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:29:58,283 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:29:58,287 - UI - INFO - Headers
+2025-04-11 21:29:58,288 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:29:58,291 - UI - INFO - LLM-GROQ
+2025-04-11 21:29:58,292 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:29:58,295 - UI - INFO - llama3-8b-8192
+2025-04-11 21:29:58,798 - UI - INFO - GROQ_API_KEY
+2025-04-11 21:29:58,798 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:29:58,798 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:29:59,274 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:29:59,274 - UI - INFO - render_process
+2025-04-11 21:29:59,274 - UI - INFO - UI_START
+2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 21:30:04,656 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:30:04,656 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:30:04,660 - UI - INFO - Headers
+2025-04-11 21:30:04,661 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:30:04,661 - UI - INFO - LLM-GROQ
+2025-04-11 21:30:04,661 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:30:04,661 - UI - INFO - llama3-8b-8192
+2025-04-11 21:30:04,765 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:30:04,765 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:30:04,765 - UI - INFO - Headers
+2025-04-11 21:30:04,765 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:30:04,765 - UI - INFO - LLM-GROQ
+2025-04-11 21:30:04,765 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:30:04,765 - UI - INFO - llama3-8b-8192
+2025-04-11 21:30:05,362 - UI - INFO - GROQ_API_KEY
+2025-04-11 21:30:05,363 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:30:05,363 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:30:05,842 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:30:05,842 - UI - INFO - render_process
+2025-04-11 21:30:05,842 - UI - INFO - UI_START
+2025-04-11 21:33:35,430 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:33:35,430 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:33:35,430 - UI - INFO - Headers
+2025-04-11 21:33:35,430 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:33:35,431 - UI - INFO - LLM-GROQ
+2025-04-11 21:33:35,431 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:33:35,431 - UI - INFO - llama3-8b-8192
+2025-04-11 21:33:35,904 - UI - ERROR - NO API KEY
+2025-04-11 21:33:35,904 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:33:35,909 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:33:36,421 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:33:39,754 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:33:39,754 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:33:39,755 - UI - INFO - Headers
+2025-04-11 21:33:39,755 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:33:39,755 - UI - INFO - LLM-GROQ
+2025-04-11 21:33:39,755 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:33:39,756 - UI - INFO - llama3-8b-8192
+2025-04-11 21:33:40,266 - UI - INFO - GROQ_API_KEY
+2025-04-11 21:33:40,266 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:33:40,266 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:33:40,766 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:49:44,484 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:49:44,484 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:49:44,484 - UI - INFO - Headers
+2025-04-11 21:49:44,484 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:49:44,484 - UI - INFO - LLM-GROQ
+2025-04-11 21:49:44,484 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:49:44,489 - UI - INFO - llama3-8b-8192
+2025-04-11 21:49:44,974 - UI - ERROR - NO API KEY
+2025-04-11 21:49:44,975 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:49:44,976 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:49:45,462 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:49:49,947 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:49:49,947 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:49:49,948 - UI - INFO - Headers
+2025-04-11 21:49:49,948 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:49:49,949 - UI - INFO - LLM-GROQ
+2025-04-11 21:49:49,950 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:49:49,951 - UI - INFO - llama3-8b-8192
+2025-04-11 21:49:50,431 - UI - INFO - GROQ_API_KEY
+2025-04-11 21:49:50,431 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:49:50,431 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:49:50,898 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:50:01,632 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:50:01,632 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:50:01,632 - UI - INFO - Headers
+2025-04-11 21:50:01,632 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:50:01,633 - UI - INFO - LLM-GROQ
+2025-04-11 21:50:01,633 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:50:01,633 - UI - INFO - llama3-70b-8192
+2025-04-11 21:50:02,140 - UI - INFO - GROQ_API_KEY
+2025-04-11 21:50:02,140 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:50:02,140 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:50:02,621 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:50:21,381 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:50:21,381 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:50:21,382 - UI - INFO - Headers
+2025-04-11 21:50:21,382 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:50:21,383 - UI - INFO - LLM-GROQ
+2025-04-11 21:50:21,384 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:50:21,384 - UI - INFO - llama3-8b-8192
+2025-04-11 21:50:21,887 - UI - ERROR - NO API KEY
+2025-04-11 21:50:21,887 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:50:21,888 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:50:22,382 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:50:29,512 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:50:29,513 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:50:29,514 - UI - INFO - Headers
+2025-04-11 21:50:29,514 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:50:29,516 - UI - INFO - LLM-GROQ
+2025-04-11 21:50:29,516 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:50:29,518 - UI - INFO - llama3-8b-8192
+2025-04-11 21:50:30,056 - UI - INFO - GROQ_API_KEY
+2025-04-11 21:50:30,056 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:50:30,056 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:50:30,538 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:50:30,539 - UI - INFO - render_process
+2025-04-11 21:50:30,544 - UI - INFO - UI_START
+2025-04-11 21:50:30,547 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 21:50:36,718 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:50:36,718 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:50:36,718 - UI - INFO - Headers
+2025-04-11 21:50:36,718 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:50:36,718 - UI - INFO - LLM-GROQ
+2025-04-11 21:50:36,718 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:50:36,718 - UI - INFO - llama3-8b-8192
+2025-04-11 21:50:36,801 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:50:36,801 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:50:36,801 - UI - INFO - Headers
+2025-04-11 21:50:36,801 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:50:36,801 - UI - INFO - LLM-GROQ
+2025-04-11 21:50:36,801 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:50:36,801 - UI - INFO - llama3-8b-8192
+2025-04-11 21:50:37,411 - UI - INFO - GROQ_API_KEY
+2025-04-11 21:50:37,411 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:50:37,411 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:50:37,904 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:50:37,904 - UI - INFO - render_process
+2025-04-11 21:50:37,905 - UI - INFO - UI_START
+2025-04-11 21:54:03,453 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 21:54:03,454 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 21:54:03,455 - UI - INFO - Headers
+2025-04-11 21:54:03,455 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 21:54:03,455 - UI - INFO - LLM-GROQ
+2025-04-11 21:54:03,455 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 21:54:03,456 - UI - INFO - llama3-8b-8192
+2025-04-11 21:54:03,951 - UI - ERROR - NO API KEY
+2025-04-11 21:54:03,951 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 21:54:03,952 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 21:54:04,424 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 21:54:04,424 - UI - INFO - render_process
+2025-04-11 21:54:04,424 - UI - INFO - UI_START
+2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 22:03:46,363 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 22:03:46,364 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 22:03:46,364 - UI - INFO - Headers
+2025-04-11 22:03:46,364 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 22:03:46,365 - UI - INFO - LLM-GROQ
+2025-04-11 22:03:46,365 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 22:03:46,365 - UI - INFO - llama3-8b-8192
+2025-04-11 22:03:46,890 - UI - ERROR - NO API KEY
+2025-04-11 22:03:46,890 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 22:03:46,892 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 22:03:47,393 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 22:03:47,394 - UI - INFO - render_process
+2025-04-11 22:03:47,400 - UI - INFO - UI_START
+2025-04-11 22:03:47,403 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 22:03:47,403 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 22:03:47,404 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 22:03:47,404 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 22:03:47,404 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 22:03:47,404 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 22:05:25,022 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 22:05:25,022 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 22:05:25,022 - UI - INFO - Headers
+2025-04-11 22:05:25,023 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 22:05:25,023 - UI - INFO - LLM-GROQ
+2025-04-11 22:05:25,023 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 22:05:25,024 - UI - INFO - llama3-8b-8192
+2025-04-11 22:05:25,486 - UI - ERROR - NO API KEY
+2025-04-11 22:05:25,486 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 22:05:25,486 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 22:05:25,996 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 22:05:38,305 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 22:05:38,307 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 22:05:38,309 - UI - INFO - Headers
+2025-04-11 22:05:38,310 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 22:05:38,311 - UI - INFO - LLM-GROQ
+2025-04-11 22:05:38,312 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 22:05:38,315 - UI - INFO - llama3-8b-8192
+2025-04-11 22:05:38,833 - UI - INFO - GROQ_API_KEY
+2025-04-11 22:05:38,833 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 22:05:38,833 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 22:05:39,323 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 22:05:39,323 - UI - INFO - render_process
+2025-04-11 22:05:39,323 - UI - INFO - UI_START
+2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-11 22:05:39,332 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-11 22:05:48,877 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 22:05:48,877 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 22:05:48,877 - UI - INFO - Headers
+2025-04-11 22:05:48,877 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 22:05:48,877 - UI - INFO - LLM-GROQ
+2025-04-11 22:05:48,877 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 22:05:48,877 - UI - INFO - llama3-8b-8192
+2025-04-11 22:05:48,957 - CONFIG - DEBUG - Hackathon Project --
+2025-04-11 22:05:48,957 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-11 22:05:48,957 - UI - INFO - Headers
+2025-04-11 22:05:48,957 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-11 22:05:48,958 - UI - INFO - LLM-GROQ
+2025-04-11 22:05:48,958 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-11 22:05:48,959 - UI - INFO - llama3-8b-8192
+2025-04-11 22:05:49,561 - UI - INFO - GROQ_API_KEY
+2025-04-11 22:05:49,561 - CONFIG - DEBUG - ['Ollama']
+2025-04-11 22:05:49,561 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-11 22:05:50,031 - UI - INFO - LLM_reasoning_Ollama
+2025-04-11 22:05:50,031 - UI - INFO - render_process
+2025-04-11 22:05:50,031 - UI - INFO - UI_START

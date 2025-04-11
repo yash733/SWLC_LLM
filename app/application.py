@@ -7,6 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.structure import graph_node
 from src.share import State
 from app.uiconfig import Config
+from src.Model.model import model
 import ast
 
 from src.log.logger import logging
@@ -17,10 +18,10 @@ logui.setLevel(logging.DEBUG)
 class UI:
     def __init__(self):
         # Initialize session state variables
-        if "selected_llm" not in st.session_state:
-            st.session_state.selected_llm = None
-        if "selected_reasoning_llm" not in st.session_state:
-            st.session_state.selected_reasoning_llm = None
+        if "model" not in st.session_state:
+            st.session_state.model = None
+        if "reasoning_model" not in st.session_state:
+            st.session_state.reasoning_model = None
 
         if "state" not in st.session_state:
             st.session_state.state = 'START'
@@ -83,8 +84,8 @@ class UI:
                 logui.info('LLM-GROQ')
                 self.user_controls['Model'] = st.selectbox(label= 'Choose Model', options= self.config.get_groq_model_options())
                 logui.info(self.user_controls['Model'])
-                st.session_state.selected_llm = {'type':'GROQ', 'model':self.user_controls['Model']}
-
+                st.session_state.selected_llm = model.groq_llm(self.user_controls['Model'])   #{'type':'GROQ', 'model':self.user_controls['Model']}
+            
                 #----- API KEY -----#
                 self.user_controls['API_KEY'] = st.text_input('Enter Groq API Key: ', type='password')
                 if self.user_controls['API_KEY']:
@@ -94,140 +95,147 @@ class UI:
                     st.warning("⚠️ Please enter your GROQ API key to proceed. Don't have? refer : https://console.groq.com/keys ")
                     logui.error('NO API KEY')
             
+
+            if self.user_controls['LLM'] == 'Ollama':
+                logui.info('LLM-OLLAMA')
+                self.user_controls['Model'] = st.selectbox(label= 'Choose Model', options= self.config.get_ollama_model_options())
+                logui.info(self.user_controls['Model'])
+                st.session_state.model = model.ollama_llm(self.user_controls['Model'])  #{'type':'OLLAMA', 'model':self.user_controls['Model']}
+                
             #----- REASONING MODEL -----#   
             self.user_controls['LLM_REASONING'] = st.selectbox(label= 'Select Reasoninig LLM', options= self.config.get_llm_reasoning())
 
             if self.user_controls['LLM_REASONING'] == 'Ollama':
                 self.user_controls['Reasoning_Model'] = st.selectbox(label= 'Choose Reasoning Model', options= self.config.get_reasoning_model())
-                st.session_state.selected_reasoning_llm = {'type':'Ollama', 'model':self.user_controls['Reasoning_Model']}
+                st.session_state.reasoning_model = model.ollama_llm(self.user_controls['Reasoning_Model'])  #{'type':'Ollama', 'model':self.user_controls['Reasoning_Model']}
                 logui.info('LLM_reasoning_Ollama')
-        
-        if self.user_controls['API_KEY']:
-            if st.session_state.selected_llm and st.session_state.selected_reasoning_llm:
+                
+        if self.user_controls.get('API_KEY') or self.user_controls['LLM'] == 'Ollama':
+            if st.session_state.model and st.session_state.reasoning_model:
+                print("LLM corr")
                 #----- graph.invoke() -----#
                 if "work_flow" not in st.session_state: 
-                    graph_instance = graph_node()
+                    print("Work Flow")
+                    graph_instance = graph_node(st.session_state.model, st.session_state.reasoning_model)
                     st.session_state.work_flow = graph_instance.graph(State)
                     logui.info("Graph Initialization")
             
-            #----- Render progress tracker -----#
-            self.render_process()
-            
-            if st.session_state.state == 'START':
-                st.write('''This project is a Streamlit-based application designed to automate and streamline the Software Development Life Cycle (SDLC) 
-                using Large Language Models (LLMs). The application provides an interactive interface for users to input their software requirements, 
-                receive generated outputs (such as user stories, blueprints, and code), and provide feedback at each stage of the development process. 
-                The workflow is powered by a backend graph-based system that manages the state transitions and invokes LLMs to generate outputs dynamically.''',)
+                #----- Render progress tracker -----#
+                self.render_process()
                 
-                # Input fields
-                user_requirement_input = st.text_area('Describe your requirements: ', key='user_requirement_input')
-                tech_stack = st.text_input('Enter Tech Stack', key='tech_stack', value='Python, Django, Streamlit')
-                
-                logui.info('UI_START')
-                if st.button('Proceed'):
-                    # Configurations
-                    initial_input = {'user_requirement_input': user_requirement_input, 'tech_stack': tech_stack}
+                if st.session_state.state == 'START':
+                    st.write('''This project is a Streamlit-based application designed to automate and streamline the Software Development Life Cycle (SDLC) 
+                    using Large Language Models (LLMs). The application provides an interactive interface for users to input their software requirements, 
+                    receive generated outputs (such as user stories, blueprints, and code), and provide feedback at each stage of the development process. 
+                    The workflow is powered by a backend graph-based system that manages the state transitions and invokes LLMs to generate outputs dynamically.''',)
                     
-                    # Invoke model
-                    st.session_state.work_flow.invoke(input=initial_input, config=st.session_state.config)
-                    st.rerun()
-                
-            # Handle different states
-            elif st.session_state.state == 'User Story':
-                st.markdown("""
-                    <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
-                    ✅ User Story
-                    </div>
-                            """, unsafe_allow_html=True)
-                
-                state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
-                st.markdown(state.values.get('user_story'))
-                user_story_feedback = st.text_area("Enter your feedback:", key='user_story_feedback')
+                    # Input fields
+                    user_requirement_input = st.text_area('Describe your requirements: ', key='user_requirement_input')
+                    tech_stack = st.text_input('Enter Tech Stack', key='tech_stack', value='Python, Django, Streamlit')
+                    
+                    logui.info('UI_START')
+                    if st.button('Proceed'):
+                        # Configurations
+                        initial_input = {'user_requirement_input': user_requirement_input, 'tech_stack': tech_stack}
+                        
+                        # Invoke model
+                        st.session_state.work_flow.invoke(input=initial_input, config=st.session_state.config)
+                        st.rerun()
+                    
+                # Handle different states
+                elif st.session_state.state == 'User Story':
+                    st.markdown("""
+                        <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
+                        ✅ User Story
+                        </div>
+                                """, unsafe_allow_html=True)
+                    
+                    state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
+                    st.markdown(state.values.get('user_story'))
+                    user_story_feedback = st.text_area("Enter your feedback:", key='user_story_feedback')
 
-                if st.button('Proceed', key='User Story'):
-                    st.session_state.work_flow.update_state(config=st.session_state.config, values={'user_feedback': user_story_feedback})
-                    st.session_state.work_flow.invoke(None, config=st.session_state.config)
-                    # ----- Progress -----  
-                    with st.spinner('Processing... ', show_time = True):
-                        while st.session_state.state == 'User Story':
-                            time.sleep(1)
-                            st.rerun()
+                    if st.button('Proceed', key='User Story'):
+                        st.session_state.work_flow.update_state(config=st.session_state.config, values={'user_feedback': user_story_feedback})
+                        st.session_state.work_flow.invoke(None, config=st.session_state.config)
+                        # ----- Progress -----  
+                    
+                elif st.session_state.state in ['Blue Print Feedback', 'Blue Print']:
+                    state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
+                    st.markdown("""
+                        <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
+                        ✅ Refined User Story
+                        </div>
+                    """, unsafe_allow_html=True)
+                    st.markdown(state.values.get('user_story'))
+
+                    st.markdown("""
+                        <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
+                        ✅ Design Document
+                        </div>
+                    """, unsafe_allow_html=True)
+                    st.markdown(state.values.get('blue_print'))
+
+                    blue_print_feedback = st.text_input('Provide Your Feedback: ', key = 'Design Documnet')
+
+                    if st.button('Proceed', key='Blue Print'):
+                        st.session_state.work_flow.update_state(config=st.session_state.config, values={'user_feedback': blue_print_feedback})
+                        st.session_state.work_flow.invoke(None, config=st.session_state.config)
+                        st.rerun()
+                    
+                elif st.session_state.state in ['Quality Test', 'Test Case Review', 'Security Review', 'Code Review', 'Generate Code']:
+                    state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
+                    st.markdown("""
+                        <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
+                        ✅ Code
+                        </div>
+                    """, unsafe_allow_html=True)
+                    #----- Parsing Code -----#
+                    # for file in state.values.get('code'):
+                    #     # display file_name 
+                    #     st.markdown(f"### File: {file.file_name}")
+                    #     # code
+                    #     st.markdown(file.code)
+                    st.markdown(state.values.get('code'))
+
+                    code_feedback = st.text_input('Provide Your Feedback: ', key = 'Code Review')
+                    # with st.expander('Meta data'):
+                    #     parsed_code = ast.literal_eval(state.values.get('code'))
+                    #     st.code(parsed_code.code)
+                    if st.button('Proceed', key='generate code'):
+                        st.session_state.work_flow.update_state(config=st.session_state.config, values={'user_feedback': code_feedback})
+                        st.session_state.work_flow.invoke(None, config=st.session_state.config)
+                        st.rerun()
+                    
+                elif st.session_state.state in ["Quality Test", "Final Review"]:
+                    state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
+                    st.subheader('Test Case: ')
+                    st.write(state.values.get('test_case'))
+                    
+                    st.header('Final Output: ')
+                    st.write(state.values.get('file_structure'))
+                    st.write(state.values.get('code'))
                 
-            elif st.session_state.state in ['Blue Print Feedback', 'Blue Print']:
-                state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
+                # Add a button on the right-hand side using HTML and CSS
                 st.markdown("""
-                    <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
-                    ✅ Refined User Story
+                    <div style="display: flex; justify-content: flex-end;">
+                        <form action="" method="post">
+                            <button style="background-color: #FF0000; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" type="submit">
+                                Clear Cache
+                            </button>
+                        </form>
                     </div>
                 """, unsafe_allow_html=True)
-                st.markdown(state.values.get('user_story'))
 
-                st.markdown("""
-                    <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
-                    ✅ Design Document
-                    </div>
-                """, unsafe_allow_html=True)
-                st.markdown(state.values.get('blue_print'))
-
-                blue_print_feedback = st.text_input('Provide Your Feedback: ', key = 'Design Documnet')
-
-                if st.button('Proceed', key='Blue Print'):
-                    st.session_state.work_flow.update_state(config=st.session_state.config, values={'user_feedback': blue_print_feedback})
-                    st.session_state.work_flow.invoke(None, config=st.session_state.config)
-                    st.rerun()
+                # Logic to clear session state when the button is clicked
+                if st.session_state.get("clear_cache", False):
+                    if st.confirm("Are you sure you want to clear the cache?"):
+                        st.session_state.clear()
+                        st.rerun()
                 
-            elif st.session_state.state in ['Quality Test', 'Test Case Review', 'Security Review', 'Code Review', 'Generate Code']:
-                state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
-                st.markdown("""
-                    <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
-                    ✅ Code
-                    </div>
-                """, unsafe_allow_html=True)
-            #----- Parsing Code -----#
-                for file in state.values.get('code'):
-                    # display file_name 
-                    st.markdown(f"### File: {file.file_name}")
-                    # code
-                    st.markdown(file.code)
-
-                code_feedback = st.text_input('Provide Your Feedback: ', key = 'Code Review')
-                # with st.expander('Meta data'):
-                #     parsed_code = ast.literal_eval(state.values.get('code'))
-                #     st.code(parsed_code.code)
-                if st.button('Proceed', key='generate code'):
-                    st.session_state.work_flow.update_state(config=st.session_state.config, values={'user_feedback': code_feedback})
-                    st.session_state.work_flow.invoke(None, config=st.session_state.config)
-                    st.rerun()
+                # Add an expander to display the flow diagram
+                with st.expander("View Workflow Diagram"):
+                    st.image("flow.png", caption="Workflow Diagram", use_column_width=True)
                 
-            elif st.session_state.state in ["Quality Test", "Final Review"]:
-                state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
-                st.subheader('Test Case: ')
-                st.write(state.values.get('test_case'))
-                
-                st.header('Final Output: ')
-                st.write(state.values.get('file_structure'))
-                st.write(state.values.get('code'))
-            
-            # Add a button on the right-hand side using HTML and CSS
-            st.markdown("""
-                <div style="display: flex; justify-content: flex-end;">
-                    <form action="" method="post">
-                        <button style="background-color: #FF0000; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" type="submit">
-                            Clear Cache
-                        </button>
-                    </form>
-                </div>
-            """, unsafe_allow_html=True)
-
-            # Logic to clear session state when the button is clicked
-            if st.session_state.get("clear_cache", False):
-                st.session_state.clear()
-                st.rerun()
-            
-            # Add an expander to display the flow diagram
-            with st.expander("View Workflow Diagram"):
-                st.image("flow.png", caption="Workflow Diagram", use_column_width=True)
-            
 # Create an instance of the UI class and run the app
 
 ui = UI()
