@@ -1,243 +1,580 @@
-2025-04-11 21:29:52,142 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:29:52,142 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:29:52,384 - UI - INFO - Headers
-2025-04-11 21:29:52,384 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:29:52,385 - UI - INFO - LLM-GROQ
-2025-04-11 21:29:52,385 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:29:52,385 - UI - INFO - llama3-8b-8192
-2025-04-11 21:29:52,953 - UI - ERROR - NO API KEY
-2025-04-11 21:29:52,953 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:29:52,953 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:29:53,481 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:29:58,283 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:29:58,283 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:29:58,287 - UI - INFO - Headers
-2025-04-11 21:29:58,288 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:29:58,291 - UI - INFO - LLM-GROQ
-2025-04-11 21:29:58,292 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:29:58,295 - UI - INFO - llama3-8b-8192
-2025-04-11 21:29:58,798 - UI - INFO - GROQ_API_KEY
-2025-04-11 21:29:58,798 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:29:58,798 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:29:59,274 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:29:59,274 - UI - INFO - render_process
-2025-04-11 21:29:59,274 - UI - INFO - UI_START
-2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 21:29:59,847 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 21:30:04,656 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:30:04,656 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:30:04,660 - UI - INFO - Headers
-2025-04-11 21:30:04,661 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:30:04,661 - UI - INFO - LLM-GROQ
-2025-04-11 21:30:04,661 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:30:04,661 - UI - INFO - llama3-8b-8192
-2025-04-11 21:30:04,765 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:30:04,765 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:30:04,765 - UI - INFO - Headers
-2025-04-11 21:30:04,765 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:30:04,765 - UI - INFO - LLM-GROQ
-2025-04-11 21:30:04,765 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:30:04,765 - UI - INFO - llama3-8b-8192
-2025-04-11 21:30:05,362 - UI - INFO - GROQ_API_KEY
-2025-04-11 21:30:05,363 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:30:05,363 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:30:05,842 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:30:05,842 - UI - INFO - render_process
-2025-04-11 21:30:05,842 - UI - INFO - UI_START
-2025-04-11 21:33:35,430 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:33:35,430 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:33:35,430 - UI - INFO - Headers
-2025-04-11 21:33:35,430 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:33:35,431 - UI - INFO - LLM-GROQ
-2025-04-11 21:33:35,431 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:33:35,431 - UI - INFO - llama3-8b-8192
-2025-04-11 21:33:35,904 - UI - ERROR - NO API KEY
-2025-04-11 21:33:35,904 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:33:35,909 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:33:36,421 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:33:39,754 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:33:39,754 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:33:39,755 - UI - INFO - Headers
-2025-04-11 21:33:39,755 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:33:39,755 - UI - INFO - LLM-GROQ
-2025-04-11 21:33:39,755 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:33:39,756 - UI - INFO - llama3-8b-8192
-2025-04-11 21:33:40,266 - UI - INFO - GROQ_API_KEY
-2025-04-11 21:33:40,266 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:33:40,266 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:33:40,766 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:49:44,484 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:49:44,484 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:49:44,484 - UI - INFO - Headers
-2025-04-11 21:49:44,484 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:49:44,484 - UI - INFO - LLM-GROQ
-2025-04-11 21:49:44,484 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:49:44,489 - UI - INFO - llama3-8b-8192
-2025-04-11 21:49:44,974 - UI - ERROR - NO API KEY
-2025-04-11 21:49:44,975 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:49:44,976 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:49:45,462 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:49:49,947 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:49:49,947 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:49:49,948 - UI - INFO - Headers
-2025-04-11 21:49:49,948 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:49:49,949 - UI - INFO - LLM-GROQ
-2025-04-11 21:49:49,950 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:49:49,951 - UI - INFO - llama3-8b-8192
-2025-04-11 21:49:50,431 - UI - INFO - GROQ_API_KEY
-2025-04-11 21:49:50,431 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:49:50,431 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:49:50,898 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:50:01,632 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:50:01,632 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:50:01,632 - UI - INFO - Headers
-2025-04-11 21:50:01,632 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:50:01,633 - UI - INFO - LLM-GROQ
-2025-04-11 21:50:01,633 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:50:01,633 - UI - INFO - llama3-70b-8192
-2025-04-11 21:50:02,140 - UI - INFO - GROQ_API_KEY
-2025-04-11 21:50:02,140 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:50:02,140 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:50:02,621 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:50:21,381 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:50:21,381 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:50:21,382 - UI - INFO - Headers
-2025-04-11 21:50:21,382 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:50:21,383 - UI - INFO - LLM-GROQ
-2025-04-11 21:50:21,384 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:50:21,384 - UI - INFO - llama3-8b-8192
-2025-04-11 21:50:21,887 - UI - ERROR - NO API KEY
-2025-04-11 21:50:21,887 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:50:21,888 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:50:22,382 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:50:29,512 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:50:29,513 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:50:29,514 - UI - INFO - Headers
-2025-04-11 21:50:29,514 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:50:29,516 - UI - INFO - LLM-GROQ
-2025-04-11 21:50:29,516 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:50:29,518 - UI - INFO - llama3-8b-8192
-2025-04-11 21:50:30,056 - UI - INFO - GROQ_API_KEY
-2025-04-11 21:50:30,056 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:50:30,056 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:50:30,538 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:50:30,539 - UI - INFO - render_process
-2025-04-11 21:50:30,544 - UI - INFO - UI_START
-2025-04-11 21:50:30,547 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 21:50:30,548 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 21:50:36,718 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:50:36,718 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:50:36,718 - UI - INFO - Headers
-2025-04-11 21:50:36,718 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:50:36,718 - UI - INFO - LLM-GROQ
-2025-04-11 21:50:36,718 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:50:36,718 - UI - INFO - llama3-8b-8192
-2025-04-11 21:50:36,801 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:50:36,801 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:50:36,801 - UI - INFO - Headers
-2025-04-11 21:50:36,801 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:50:36,801 - UI - INFO - LLM-GROQ
-2025-04-11 21:50:36,801 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:50:36,801 - UI - INFO - llama3-8b-8192
-2025-04-11 21:50:37,411 - UI - INFO - GROQ_API_KEY
-2025-04-11 21:50:37,411 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:50:37,411 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:50:37,904 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:50:37,904 - UI - INFO - render_process
-2025-04-11 21:50:37,905 - UI - INFO - UI_START
-2025-04-11 21:54:03,453 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 21:54:03,454 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 21:54:03,455 - UI - INFO - Headers
-2025-04-11 21:54:03,455 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 21:54:03,455 - UI - INFO - LLM-GROQ
-2025-04-11 21:54:03,455 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 21:54:03,456 - UI - INFO - llama3-8b-8192
-2025-04-11 21:54:03,951 - UI - ERROR - NO API KEY
-2025-04-11 21:54:03,951 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 21:54:03,952 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 21:54:04,424 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 21:54:04,424 - UI - INFO - render_process
-2025-04-11 21:54:04,424 - UI - INFO - UI_START
-2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 21:54:04,424 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 22:03:46,363 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 22:03:46,364 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 22:03:46,364 - UI - INFO - Headers
-2025-04-11 22:03:46,364 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 22:03:46,365 - UI - INFO - LLM-GROQ
-2025-04-11 22:03:46,365 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 22:03:46,365 - UI - INFO - llama3-8b-8192
-2025-04-11 22:03:46,890 - UI - ERROR - NO API KEY
-2025-04-11 22:03:46,890 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 22:03:46,892 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 22:03:47,393 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 22:03:47,394 - UI - INFO - render_process
-2025-04-11 22:03:47,400 - UI - INFO - UI_START
-2025-04-11 22:03:47,403 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 22:03:47,403 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 22:03:47,404 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 22:03:47,404 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 22:03:47,404 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 22:03:47,404 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 22:05:25,022 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 22:05:25,022 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 22:05:25,022 - UI - INFO - Headers
-2025-04-11 22:05:25,023 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 22:05:25,023 - UI - INFO - LLM-GROQ
-2025-04-11 22:05:25,023 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 22:05:25,024 - UI - INFO - llama3-8b-8192
-2025-04-11 22:05:25,486 - UI - ERROR - NO API KEY
-2025-04-11 22:05:25,486 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 22:05:25,486 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 22:05:25,996 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 22:05:38,305 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 22:05:38,307 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 22:05:38,309 - UI - INFO - Headers
-2025-04-11 22:05:38,310 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 22:05:38,311 - UI - INFO - LLM-GROQ
-2025-04-11 22:05:38,312 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 22:05:38,315 - UI - INFO - llama3-8b-8192
-2025-04-11 22:05:38,833 - UI - INFO - GROQ_API_KEY
-2025-04-11 22:05:38,833 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 22:05:38,833 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 22:05:39,323 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 22:05:39,323 - UI - INFO - render_process
-2025-04-11 22:05:39,323 - UI - INFO - UI_START
-2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
-2025-04-11 22:05:39,331 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
-2025-04-11 22:05:39,332 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
-2025-04-11 22:05:48,877 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 22:05:48,877 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 22:05:48,877 - UI - INFO - Headers
-2025-04-11 22:05:48,877 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 22:05:48,877 - UI - INFO - LLM-GROQ
-2025-04-11 22:05:48,877 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 22:05:48,877 - UI - INFO - llama3-8b-8192
-2025-04-11 22:05:48,957 - CONFIG - DEBUG - Hackathon Project --
-2025-04-11 22:05:48,957 - CONFIG - DEBUG - End To End Software Development Life Cycle
-2025-04-11 22:05:48,957 - UI - INFO - Headers
-2025-04-11 22:05:48,957 - CONFIG - DEBUG - ['Groq', 'Ollama']
-2025-04-11 22:05:48,958 - UI - INFO - LLM-GROQ
-2025-04-11 22:05:48,958 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
-2025-04-11 22:05:48,959 - UI - INFO - llama3-8b-8192
-2025-04-11 22:05:49,561 - UI - INFO - GROQ_API_KEY
-2025-04-11 22:05:49,561 - CONFIG - DEBUG - ['Ollama']
-2025-04-11 22:05:49,561 - CONFIG - DEBUG - ['deepseek-r1:7b']
-2025-04-11 22:05:50,031 - UI - INFO - LLM_reasoning_Ollama
-2025-04-11 22:05:50,031 - UI - INFO - render_process
-2025-04-11 22:05:50,031 - UI - INFO - UI_START
+2025-04-12 12:29:25,395 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:29:25,395 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:29:25,601 - UI - INFO - Headers
+2025-04-12 12:29:25,601 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:29:25,601 - UI - INFO - LLM-GROQ
+2025-04-12 12:29:25,601 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:29:25,608 - UI - INFO - llama3-8b-8192
+2025-04-12 12:29:26,208 - UI - ERROR - NO API KEY
+2025-04-12 12:29:26,208 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:29:26,208 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:29:26,726 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:29:26,726 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:30:01,576 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:30:01,576 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:30:01,578 - UI - INFO - Headers
+2025-04-12 12:30:01,578 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:30:01,579 - UI - INFO - LLM-GROQ
+2025-04-12 12:30:01,579 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:30:01,580 - UI - INFO - llama3-8b-8192
+2025-04-12 12:30:02,096 - UI - ERROR - NO API KEY
+2025-04-12 12:30:02,096 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:30:02,097 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:30:02,575 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:30:30,974 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:30:30,974 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:30:30,974 - UI - INFO - Headers
+2025-04-12 12:30:30,974 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:30:30,974 - UI - INFO - LLM-GROQ
+2025-04-12 12:30:30,974 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:30:30,974 - UI - INFO - llama3-8b-8192
+2025-04-12 12:30:31,458 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:30:31,458 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:30:31,460 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:30:31,936 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:30:33,720 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:30:33,720 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:30:33,723 - UI - INFO - Headers
+2025-04-12 12:30:33,724 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:30:33,726 - UI - INFO - LLM-GROQ
+2025-04-12 12:30:33,726 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:30:33,727 - UI - INFO - llama3-8b-8192
+2025-04-12 12:30:34,234 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:30:34,234 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:30:34,234 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:30:34,697 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:30:34,730 - UI - INFO - Graph Initialization
+2025-04-12 12:30:34,730 - UI - INFO - render_process
+2025-04-12 12:30:34,735 - UI - INFO - UI_START
+2025-04-12 12:30:34,882 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:30:34,882 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:30:34,882 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:30:34,882 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:30:34,882 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:30:34,882 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:30:40,822 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:30:40,822 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:30:40,822 - UI - INFO - Headers
+2025-04-12 12:30:40,822 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:30:40,830 - UI - INFO - LLM-GROQ
+2025-04-12 12:30:40,830 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:30:40,833 - UI - INFO - llama3-8b-8192
+2025-04-12 12:30:40,950 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:30:40,950 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:30:40,950 - UI - INFO - Headers
+2025-04-12 12:30:40,950 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:30:40,950 - UI - INFO - LLM-GROQ
+2025-04-12 12:30:40,950 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:30:40,950 - UI - INFO - llama3-8b-8192
+2025-04-12 12:30:41,584 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:30:41,584 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:30:41,584 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:30:42,070 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:31:26,274 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:31:26,274 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:31:26,274 - UI - INFO - Headers
+2025-04-12 12:31:26,274 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:31:26,274 - UI - INFO - LLM-GROQ
+2025-04-12 12:31:26,274 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:31:26,274 - UI - INFO - llama3-8b-8192
+2025-04-12 12:31:26,755 - UI - ERROR - NO API KEY
+2025-04-12 12:31:26,755 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:31:26,755 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:31:27,252 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:31:29,671 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:31:29,671 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:31:29,671 - UI - INFO - Headers
+2025-04-12 12:31:29,671 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:31:29,671 - UI - INFO - LLM-GROQ
+2025-04-12 12:31:29,671 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:31:29,671 - UI - INFO - llama3-8b-8192
+2025-04-12 12:31:30,164 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:31:30,164 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:31:30,170 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:31:30,650 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:31:31,422 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:31:31,422 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:31:31,426 - UI - INFO - Headers
+2025-04-12 12:31:31,426 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:31:31,426 - UI - INFO - LLM-GROQ
+2025-04-12 12:31:31,426 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:31:31,427 - UI - INFO - llama3-8b-8192
+2025-04-12 12:31:31,895 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:31:31,895 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:31:31,895 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:31:32,391 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:31:32,411 - UI - INFO - Graph Initialization
+2025-04-12 12:31:32,411 - UI - INFO - render_process
+2025-04-12 12:31:32,419 - UI - INFO - UI_START
+2025-04-12 12:31:32,423 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:31:32,423 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:31:32,423 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:31:32,423 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:31:32,423 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:31:32,423 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:31:36,758 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:31:36,759 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:31:36,762 - UI - INFO - Headers
+2025-04-12 12:31:36,762 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:31:36,762 - UI - INFO - LLM-GROQ
+2025-04-12 12:31:36,767 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:31:36,771 - UI - INFO - llama3-8b-8192
+2025-04-12 12:31:36,883 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:31:36,883 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:31:36,883 - UI - INFO - Headers
+2025-04-12 12:31:36,883 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:31:36,883 - UI - INFO - LLM-GROQ
+2025-04-12 12:31:36,883 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:31:36,886 - UI - INFO - llama3-8b-8192
+2025-04-12 12:31:37,538 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:31:37,538 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:31:37,539 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:31:38,025 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:32:14,667 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:32:14,667 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:32:14,667 - UI - INFO - Headers
+2025-04-12 12:32:14,667 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:32:14,667 - UI - INFO - LLM-GROQ
+2025-04-12 12:32:14,667 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:32:14,667 - UI - INFO - llama3-8b-8192
+2025-04-12 12:32:15,154 - UI - ERROR - NO API KEY
+2025-04-12 12:32:15,154 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:32:15,154 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:32:15,635 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:32:18,932 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:32:18,945 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:32:18,948 - UI - INFO - Headers
+2025-04-12 12:32:18,949 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:32:18,950 - UI - INFO - LLM-GROQ
+2025-04-12 12:32:18,950 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:32:18,953 - UI - INFO - llama3-8b-8192
+2025-04-12 12:32:19,481 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:32:19,481 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:32:19,481 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:32:19,965 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:32:20,720 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:32:20,721 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:32:20,721 - UI - INFO - Headers
+2025-04-12 12:32:20,721 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:32:20,721 - UI - INFO - LLM-GROQ
+2025-04-12 12:32:20,721 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:32:20,721 - UI - INFO - llama3-8b-8192
+2025-04-12 12:32:21,262 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:32:21,262 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:32:21,264 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:32:21,768 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:32:21,783 - UI - INFO - Graph Initialization
+2025-04-12 12:32:21,783 - UI - INFO - render_process
+2025-04-12 12:32:21,789 - UI - INFO - UI_START
+2025-04-12 12:32:21,800 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:32:21,800 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:32:21,800 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:32:21,801 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:32:21,801 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:32:21,801 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:32:26,210 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:32:26,210 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:32:26,210 - UI - INFO - Headers
+2025-04-12 12:32:26,214 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:32:26,215 - UI - INFO - LLM-GROQ
+2025-04-12 12:32:26,215 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:32:26,215 - UI - INFO - llama3-8b-8192
+2025-04-12 12:32:26,330 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:32:26,330 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:32:26,331 - UI - INFO - Headers
+2025-04-12 12:32:26,332 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:32:26,332 - UI - INFO - LLM-GROQ
+2025-04-12 12:32:26,332 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:32:26,333 - UI - INFO - llama3-8b-8192
+2025-04-12 12:32:26,949 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:32:26,950 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:32:26,950 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:32:27,448 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:33:47,546 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:33:47,546 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:33:47,548 - UI - INFO - Headers
+2025-04-12 12:33:47,548 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:33:47,549 - UI - INFO - LLM-GROQ
+2025-04-12 12:33:47,549 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:33:47,550 - UI - INFO - llama3-8b-8192
+2025-04-12 12:33:48,053 - UI - ERROR - NO API KEY
+2025-04-12 12:33:48,053 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:33:48,054 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:33:48,544 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:33:53,103 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:33:53,103 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:33:53,103 - UI - INFO - Headers
+2025-04-12 12:33:53,103 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:33:53,109 - UI - INFO - LLM-GROQ
+2025-04-12 12:33:53,109 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:33:53,110 - UI - INFO - llama3-8b-8192
+2025-04-12 12:33:53,575 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:33:53,575 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:33:53,575 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:33:54,087 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:33:55,013 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:33:55,013 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:33:55,016 - UI - INFO - Headers
+2025-04-12 12:33:55,017 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:33:55,019 - UI - INFO - LLM-GROQ
+2025-04-12 12:33:55,019 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:33:55,021 - UI - INFO - llama3-8b-8192
+2025-04-12 12:33:55,516 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:33:55,516 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:33:55,516 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:33:56,001 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:33:56,022 - UI - INFO - Graph Initialization
+2025-04-12 12:33:56,022 - UI - INFO - render_process
+2025-04-12 12:33:56,028 - UI - INFO - UI_START
+2025-04-12 12:33:56,032 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:33:56,032 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:33:56,032 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:33:56,032 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:33:56,033 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:33:56,033 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:34:01,095 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:34:01,095 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:34:01,100 - UI - INFO - Headers
+2025-04-12 12:34:01,100 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:34:01,100 - UI - INFO - LLM-GROQ
+2025-04-12 12:34:01,100 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:34:01,106 - UI - INFO - llama3-8b-8192
+2025-04-12 12:34:01,215 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:34:01,215 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:34:01,216 - UI - INFO - Headers
+2025-04-12 12:34:01,217 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:34:01,217 - UI - INFO - LLM-GROQ
+2025-04-12 12:34:01,217 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:34:01,217 - UI - INFO - llama3-8b-8192
+2025-04-12 12:34:01,828 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:34:01,828 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:34:01,828 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:34:02,313 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:38:26,181 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:38:26,181 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:38:26,181 - UI - INFO - Headers
+2025-04-12 12:38:26,182 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:38:26,182 - UI - INFO - LLM-GROQ
+2025-04-12 12:38:26,182 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:38:26,183 - UI - INFO - llama3-8b-8192
+2025-04-12 12:38:26,696 - UI - ERROR - NO API KEY
+2025-04-12 12:38:26,696 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:38:26,697 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:38:27,165 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:38:33,343 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:38:33,343 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:38:33,344 - UI - INFO - Headers
+2025-04-12 12:38:33,344 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:38:33,344 - UI - INFO - LLM-GROQ
+2025-04-12 12:38:33,344 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:38:33,345 - UI - INFO - llama3-8b-8192
+2025-04-12 12:38:33,836 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:38:33,836 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:38:33,836 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:38:34,336 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:38:34,351 - UI - INFO - Graph Initialization
+2025-04-12 12:38:34,351 - UI - INFO - render_process
+2025-04-12 12:38:34,357 - UI - INFO - UI_START
+2025-04-12 12:38:34,357 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:38:34,357 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:38:34,357 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:38:34,357 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:38:34,357 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:38:34,357 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:38:36,423 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:38:36,423 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:38:36,425 - UI - INFO - Headers
+2025-04-12 12:38:36,426 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:38:36,428 - UI - INFO - LLM-GROQ
+2025-04-12 12:38:36,429 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:38:36,431 - UI - INFO - llama3-8b-8192
+2025-04-12 12:38:36,951 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:38:36,951 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:38:36,964 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:38:37,506 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:38:37,510 - UI - INFO - render_process
+2025-04-12 12:38:37,513 - UI - INFO - UI_START
+2025-04-12 12:38:37,516 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:38:37,516 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:38:37,516 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:38:37,517 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:38:37,517 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:38:37,517 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:38:45,575 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:38:45,575 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:38:45,575 - UI - INFO - Headers
+2025-04-12 12:38:45,575 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:38:45,575 - UI - INFO - LLM-GROQ
+2025-04-12 12:38:45,575 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:38:45,575 - UI - INFO - llama3-8b-8192
+2025-04-12 12:38:45,650 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:38:45,650 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:38:45,651 - UI - INFO - Headers
+2025-04-12 12:38:45,651 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:38:45,652 - UI - INFO - LLM-GROQ
+2025-04-12 12:38:45,652 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:38:45,653 - UI - INFO - llama3-8b-8192
+2025-04-12 12:38:46,253 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:38:46,253 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:38:46,253 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:38:46,738 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:41:22,868 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:41:22,868 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:41:22,869 - UI - INFO - Headers
+2025-04-12 12:41:22,869 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:41:22,870 - UI - INFO - LLM-GROQ
+2025-04-12 12:41:22,870 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:41:22,870 - UI - INFO - llama3-8b-8192
+2025-04-12 12:41:23,363 - UI - ERROR - NO API KEY
+2025-04-12 12:41:23,363 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:41:23,363 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:41:23,846 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:41:27,328 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:41:27,328 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:41:27,328 - UI - INFO - Headers
+2025-04-12 12:41:27,328 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:41:27,334 - UI - INFO - LLM-GROQ
+2025-04-12 12:41:27,334 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:41:27,334 - UI - INFO - llama3-8b-8192
+2025-04-12 12:41:27,820 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:41:27,820 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:41:27,823 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:41:28,302 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:41:29,504 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:41:29,504 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:41:29,505 - UI - INFO - Headers
+2025-04-12 12:41:29,505 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:41:29,505 - UI - INFO - LLM-GROQ
+2025-04-12 12:41:29,505 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:41:29,505 - UI - INFO - llama3-8b-8192
+2025-04-12 12:41:30,045 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:41:30,045 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:41:30,045 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:41:30,524 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:41:30,541 - UI - INFO - Graph Initialization
+2025-04-12 12:41:30,541 - UI - INFO - render_process
+2025-04-12 12:41:30,547 - UI - INFO - UI_START
+2025-04-12 12:41:30,550 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:41:30,550 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:41:30,550 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:41:30,551 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:41:30,551 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:41:30,551 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:41:37,559 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:41:37,559 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:41:37,559 - UI - INFO - Headers
+2025-04-12 12:41:37,559 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:41:37,559 - UI - INFO - LLM-GROQ
+2025-04-12 12:41:37,559 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:41:37,559 - UI - INFO - llama3-8b-8192
+2025-04-12 12:41:37,643 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:41:37,643 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:41:37,647 - UI - INFO - Headers
+2025-04-12 12:41:37,647 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:41:37,648 - UI - INFO - LLM-GROQ
+2025-04-12 12:41:37,649 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:41:37,649 - UI - INFO - llama3-8b-8192
+2025-04-12 12:41:38,265 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:41:38,265 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:41:38,266 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:41:38,731 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:41:38,731 - UI - INFO - render_process
+2025-04-12 12:41:38,747 - UI - INFO - UI_START
+2025-04-12 12:41:38,759 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-04-12 12:41:38,895 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-12 12:41:38,895 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002299F4CE6F0>
+2025-04-12 12:41:38,896 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-12 12:41:38,896 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-12 12:41:38,896 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-12 12:41:38,897 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-12 12:41:38,897 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-12 12:41:39,083 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-04-12 12:41:39,441 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:41:41,678 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Sat, 12 Apr 2025 07:11:41 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-04-12 12:41:41,678 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-12 12:41:41,678 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-12 12:42:02,618 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-12 12:42:02,618 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-12 12:42:02,618 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-12 12:42:02,621 - Update-Structure - INFO - Genrated - User Story
+2025-04-12 12:42:02,661 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:42:02,661 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:42:02,661 - UI - INFO - Headers
+2025-04-12 12:42:02,661 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:42:02,671 - UI - INFO - LLM-GROQ
+2025-04-12 12:42:02,671 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:42:02,671 - UI - INFO - llama3-8b-8192
+2025-04-12 12:42:03,155 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:42:03,155 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:42:03,155 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:42:03,589 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:42:03,645 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:42:03,645 - UI - INFO - render_process
+2025-04-12 12:42:03,658 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:42:03,658 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:42:03,658 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:42:03,658 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:42:03,658 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:42:03,659 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:42:08,714 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:42:08,714 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:42:08,714 - UI - INFO - Headers
+2025-04-12 12:42:08,714 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:42:08,722 - UI - INFO - LLM-GROQ
+2025-04-12 12:42:08,722 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:42:08,724 - UI - INFO - llama3-8b-8192
+2025-04-12 12:42:09,261 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:42:09,261 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:42:09,261 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:42:09,762 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:42:09,763 - UI - INFO - render_process
+2025-04-12 12:42:09,782 - Update-Structure - INFO - User_Story_Sentiment
+2025-04-12 12:42:09,790 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Understand the feedback.'}, {'role': 'user', 'content': 'Feedback: '}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Feedback'}}, 'tools': [{'type': 'function', 'function': {'name': 'Feedback', 'description': '', 'parameters': {'properties': {'grade': {'enum': ['positive', 'negative'], 'type': 'string'}, 'user_feedback': {'description': 'Holds the feedback input gathered from client or agent generated', 'type': 'string'}}, 'required': ['grade', 'user_feedback'], 'type': 'object'}}}]}}
+2025-04-12 12:42:09,791 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-12 12:42:09,792 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-12 12:42:09,902 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002299E4528D0>
+2025-04-12 12:42:09,902 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000229BDCDDD50> server_hostname='api.groq.com' timeout=None
+2025-04-12 12:42:09,929 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002299BDD28A0>
+2025-04-12 12:42:09,929 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:09,929 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-12 12:42:09,929 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-12 12:42:09,935 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-12 12:42:09,935 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:10,472 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 12 Apr 2025 07:12:14 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'92f0ea07cd8c85f1-BOM'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14399'), (b'X-Ratelimit-Remaining-Tokens', b'5982'), (b'X-Ratelimit-Reset-Requests', b'6s'), (b'X-Ratelimit-Reset-Tokens', b'180ms'), (b'X-Request-Id', b'req_01jrmdf082fbyt9fv9pxxjmq7t'), (b'Set-Cookie', b'__cf_bm=nwykZK2Xjs.uaiF_rypmgbZAXkqH78EfAlT5QJY.yig-1744441934-1.0.1.1-6YhAq5iBWWqjMDB27.CyV5qaJTOlQ02NdL32oOgaSQsCQbQNUCIM_zfxneF12n6jDsENKNOy7w.mpoIGu.5rERU4bJ3rPM2Z4oikT.eOsl0; path=/; expires=Sat, 12-Apr-25 07:42:14 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-12 12:42:10,472 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 12:42:10,472 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-12 12:42:10,472 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-12 12:42:10,472 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-12 12:42:10,472 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-12 12:42:10,472 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Sat, 12 Apr 2025 07:12:14 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '92f0ea07cd8c85f1-BOM', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '5982', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '180ms', 'x-request-id': 'req_01jrmdf082fbyt9fv9pxxjmq7t', 'set-cookie': '__cf_bm=nwykZK2Xjs.uaiF_rypmgbZAXkqH78EfAlT5QJY.yig-1744441934-1.0.1.1-6YhAq5iBWWqjMDB27.CyV5qaJTOlQ02NdL32oOgaSQsCQbQNUCIM_zfxneF12n6jDsENKNOy7w.mpoIGu.5rERU4bJ3rPM2Z4oikT.eOsl0; path=/; expires=Sat, 12-Apr-25 07:42:14 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-12 12:42:10,518 - Update-Structure - INFO - Perform Sentiment Analysis
+2025-04-12 12:42:10,518 - Update-Structure - INFO - Sentiment - Positive
+2025-04-12 12:42:10,518 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are a **Senior Product Owner** tasked with refining and validating the provided user story. Use the following inputs to guide your feedback:\n                                ### **Inputs:**\n                                1. **User Story:** <think>\nAlright, so I'm trying to help create a user story and acceptance criteria for a Flappy Bird game based on the provided project requirement. Let me go through this step by step.\n\nFirst, I need to understand what the system expects from me as a senior product manager. The task has three main parts: generate a user story using the standard format, add 2-3 clear acceptance criteria, and evaluate the user story using the INVEST framework.\n\nStarting with the user story. From the description given, the goal is for players to control a bird through pipes to achieve a high score. So, as a player, I want to be able to move the bird up and down by clicking or pressing a key. The benefit here is that this allows me to enjoy the game.\n\nNext, acceptance criteria. There are several aspects mentioned: gameplay mechanics like moving the bird with input, gravity when no input, ending on collision, pipes appearing at random heights, scoring, graphics, sound effects, responsiveness across devices, and a restart option after losing. The technical requirements include frontend languages, possible backend, database for high scores, game logic for physics, performance considerations, deployment options, code practices like meaningful variable names and documentation.\n\nNow, I need to structure the user story following the standard format: As a #user_role, I want to #goal, so that #benefit. The example given was about controlling a bird with input to achieve high score. That makes sense because it's clear what the user wants to do (control the bird) and why (to have fun).\n\nFor the acceptance criteria, each should address a specific requirement clearly. So far, I see gameplay mechanics, pipes, scoring, graphics, sound, responsiveness, restart option, technical stack, performance, deployment, code practices.\n\nBut since the user only asked for 2-3 clear ones beyond the initial story, maybe I can pick some of these to add as acceptance criteria without getting too detailed. For example, movement control with input is a key point. Then ensuring the game ends correctly on collision and that pipes are spaced properly. Maybe including responsive design across devices adds another.\n\nMoving on to evaluating using INVEST:\n\nIndependent: This refers to whether the feature can be developed independently of other parts of the system. For Flappy Bird, each part like movement mechanics or pipe generation could be independent, so this should evaluate positively.\n\nNegotiable: This is about how flexible the requirements are for negotiation. Since all features have clear specifications, it's not very negotiable.\n\nValuable: The feature adds value by providing a fun and engaging game experience, which is valuable to users.\n\nEstimable: We can estimate the effort required because each part has specific tasks with measurable outputs.\n\nSmall: The feature isn't too big in scope; it doesn't require building an entire new system just for this.\n\nTestable: There are clear test cases possible, like checking if the bird moves correctly and pipes generate as expected.\n\nPutting it all together, I think that covers the evaluation. Each point aligns with the INVEST criteria by assessing independence, flexibility, value, estimability, size, and testability.\n</think>\n\n**User Story:**  \nAs a player, I want to control a bird through pipes so that I can achieve a high score and enjoy the game.\n\n---\n\n### **Acceptance Criteria:**\n1. **Gameplay Mechanics:**  \n   The bird should move upward when the player clicks or presses the spacebar (or another specified key), and gravity should pull it downward when no input is provided.\n\n2. **Pipe Generation:**  \n   Pipes must appear at random heights, moving from right to left with a consistent gap between them for the bird to pass through.\n\n3. **Responsive Design:**  \n   The game should function smoothly on both desktop and mobile devices without any performance issues.\n\n---\n\n### **INVEST Evaluation Checklist:**\n\n- **Independent:**  \n  Each feature (movement mechanics, pipe generation) can be developed independently, ensuring modularity and easier maintenance.\n\n- **Negotiable:**  \n  Specifications are clear, making negotiation straightforward as all requirements are well-defined.\n\n- **Valuable:**  \n  The game provides an engaging experience that adds fun and challenge to the player's skill set.\n\n- **Estimable:**  \n  Effort is manageable with specific tasks like movement mechanics and pipe generation having measurable outputs.\n\n- **Small:**  \n  The feature doesn't require building a new system but focuses on enhancing an existing game.\n\n- **Testable:**  \n  Clear test cases exist, such as checking bird movement and pipe positioning accuracy.\n\n                                ### **Task:**\n                                - Analyze the provided user story for completeness, clarity, and alignment with project goals.\n                                - Refine the user story to ensure it meets the following criteria:\n                                - **Independent:** Can be developed independently of other stories.\n                                - **Negotiable:** Allows for discussion and refinement.\n                                - **Valuable:** Provides clear value to the end user.\n                                - **Estimable:** Can be estimated for effort and complexity.\n                                - **Small:** Is small enough to be completed in a single sprint.\n                                - **Testable:** Includes clear acceptance criteria for validation.\n\n                                ### **Output Format:**\n                                1. **Refined User Story:** Provide the updated user story in the following format:\n                                - **As a [user role], I want to [goal], so that [benefit].**\n                                2. **Acceptance Criteria:** List 2–3 clear and testable acceptance criteria.\n                                3. **Feedback Summary:** Provide a summary of the changes made and why they were necessary.\n\n                                ### **Example Output:**\n                                1. Refined User Story:\n                                    - As a project manager, I want to track project progress, so that I can ensure timely delivery.\n                                2. Acceptance Criteria:\n                                    - The system should allow users to create and update project milestones.\n                                    - The system should display a Gantt chart for visualizing project timelines.\n                                    - The system should send email notifications for overdue tasks.\n                                3. Feedback Summary:\n                                    - The user story was refined to include a clear goal and benefit.\n                                    - Acceptance criteria were added to ensure the story is testable and aligns with project objectives.\n                                Refine the user story based on the above criteria and format."}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-12 12:42:10,518 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-12 12:42:10,518 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:10,518 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-12 12:42:10,518 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-12 12:42:10,518 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-12 12:42:10,518 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:10,582 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:42:11,271 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 12 Apr 2025 07:12:15 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'92f0ea0b79e685f1-BOM'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14398'), (b'X-Ratelimit-Remaining-Tokens', b'3250'), (b'X-Ratelimit-Reset-Requests', b'11.417s'), (b'X-Ratelimit-Reset-Tokens', b'27.495s'), (b'X-Request-Id', b'req_01jrmdf0t9fsjscvnhmmq600ag'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-12 12:42:11,271 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 12:42:11,271 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-12 12:42:11,271 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-12 12:42:11,271 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-12 12:42:11,271 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-12 12:42:11,271 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Sat, 12 Apr 2025 07:12:15 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '92f0ea0b79e685f1-BOM', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '3250', 'x-ratelimit-reset-requests': '11.417s', 'x-ratelimit-reset-tokens': '27.495s', 'x-request-id': 'req_01jrmdf0t9fsjscvnhmmq600ag', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-12 12:42:11,271 - Update-Structure - INFO - System_FeedBack - User Story
+2025-04-12 12:42:11,286 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are an AI software architect tasked with generating a **Software Design Document (SDD)** based on **approved user stories**:**Refined User Story:**\nAs a player, I want to control a bird through pipes to achieve a high score and enjoy the game, so that I can experience a fun and challenging gaming experience.\n\n**Acceptance Criteria:**\n\n1. **Gameplay Mechanics:** The bird should move upward when the player clicks or presses the spacebar (or another specified key), and gravity should pull it downward when no input is provided.\n\n2. **Responsive Design:** The game should function smoothly on both desktop and mobile devices without any performance issues.\n\n3. **Collision Detection:** The game should end when the bird collides with a pipe or the ground, and the player's score should be displayed at the end of each game.\n\n**Feedback Summary:**\n\nThe user story was refined to provide a clearer goal and benefit, focusing on the player's experience and enjoyment. Acceptance criteria were added to ensure the story is testable and aligns with project objectives. The refined user story meets the INVEST criteria by being independent, negotiable, valuable, estimable, small, and testable..  \n                                            ### **Task:**  \n                                            Create both **Functional Design Document (FDD)** and **Technical Design Document (TDD)**.  \n\n                                            #### **1. Functional Design Document (FDD)**  \n                                            - **Overview:** High-level system summary.  \n                                            - **User Roles & Permissions:** Define roles and access.  \n                                            - **User Journeys & Flows:** Describe interactions.  \n                                            - **Functional Requirements:** Feature breakdown with acceptance criteria.  \n                                            - **UI/UX Considerations:** Expected interface and usability.  \n\n                                            #### **2. Technical Design Document (TDD)**  \n                                            - **System Architecture:** Define structure (e.g., Microservices, Monolith).  \n                                            - **Tech Stack:** Languages, frameworks, and tools.  \n                                            - **Data Model & APIs:** Database schema, API endpoints, and security.  \n                                            - **Scalability & Deployment:** Performance strategies, CI/CD, and cloud infrastructure.  \n\n                                            ### **Output:**  \n                                            Provide a clear, structured SDD covering both **FDD** and **TDD** for developer and stakeholder review. \n                                            Also provide a Data flow diagram: \n                                                dfd 1 #diageam\n                                                dfd 2 #diageam\n                                                dfd 3 #diageam\n                                            Data base diagram. #diageam\n                                            Provide the output in markdown."}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-12 12:42:11,286 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-12 12:42:11,286 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:11,286 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-12 12:42:11,286 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-12 12:42:11,286 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-12 12:42:11,286 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:11,402 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:42:12,203 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:42:12,417 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 12 Apr 2025 07:12:16 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'92f0ea103f2f85f1-BOM'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14397'), (b'X-Ratelimit-Remaining-Tokens', b'2790'), (b'X-Ratelimit-Reset-Requests', b'17.215s'), (b'X-Ratelimit-Reset-Tokens', b'32.094s'), (b'X-Request-Id', b'req_01jrmdf1jrfryt144tmcb5tw0h'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-12 12:42:12,417 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 12:42:12,417 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-12 12:42:12,417 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-12 12:42:12,417 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-12 12:42:12,417 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-12 12:42:12,417 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Sat, 12 Apr 2025 07:12:16 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '92f0ea103f2f85f1-BOM', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14397', 'x-ratelimit-remaining-tokens': '2790', 'x-ratelimit-reset-requests': '17.215s', 'x-ratelimit-reset-tokens': '32.094s', 'x-request-id': 'req_01jrmdf1jrfryt144tmcb5tw0h', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-12 12:42:12,432 - Update-Structure - INFO - Created - Blue Print
+2025-04-12 12:42:12,432 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:42:12,445 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:42:12,455 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:42:12,455 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:42:12,455 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:42:12,455 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:42:13,224 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:42:14,374 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:42:14,374 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:42:14,374 - UI - INFO - Headers
+2025-04-12 12:42:14,374 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:42:14,374 - UI - INFO - LLM-GROQ
+2025-04-12 12:42:14,374 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:42:14,381 - UI - INFO - llama3-8b-8192
+2025-04-12 12:42:14,848 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:42:14,848 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:42:14,848 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:42:15,360 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:42:15,360 - UI - INFO - render_process
+2025-04-12 12:42:15,367 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:42:15,367 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:42:15,367 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:42:15,367 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-12 12:42:15,367 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-12 12:42:15,367 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-12 12:42:24,182 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:42:24,182 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:42:24,182 - UI - INFO - Headers
+2025-04-12 12:42:24,182 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:42:24,182 - UI - INFO - LLM-GROQ
+2025-04-12 12:42:24,182 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:42:24,182 - UI - INFO - llama3-8b-8192
+2025-04-12 12:42:24,265 - CONFIG - DEBUG - Hackathon Project --
+2025-04-12 12:42:24,265 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-12 12:42:24,265 - UI - INFO - Headers
+2025-04-12 12:42:24,265 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-12 12:42:24,265 - UI - INFO - LLM-GROQ
+2025-04-12 12:42:24,265 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-12 12:42:24,265 - UI - INFO - llama3-8b-8192
+2025-04-12 12:42:24,890 - UI - INFO - GROQ_API_KEY
+2025-04-12 12:42:24,890 - CONFIG - DEBUG - ['Ollama']
+2025-04-12 12:42:24,890 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-12 12:42:25,423 - UI - INFO - LLM_reasoning_Ollama
+2025-04-12 12:42:25,423 - UI - INFO - render_process
+2025-04-12 12:42:25,430 - Update-Structure - INFO - Feedback - Blue Print
+2025-04-12 12:42:25,441 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Understand the feedback.'}, {'role': 'user', 'content': 'Feedback: nice '}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Feedback'}}, 'tools': [{'type': 'function', 'function': {'name': 'Feedback', 'description': '', 'parameters': {'properties': {'grade': {'enum': ['positive', 'negative'], 'type': 'string'}, 'user_feedback': {'description': 'Holds the feedback input gathered from client or agent generated', 'type': 'string'}}, 'required': ['grade', 'user_feedback'], 'type': 'object'}}}]}}
+2025-04-12 12:42:25,441 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-12 12:42:25,442 - httpcore.connection - DEBUG - close.started
+2025-04-12 12:42:25,442 - httpcore.connection - DEBUG - close.complete
+2025-04-12 12:42:25,443 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-12 12:42:25,462 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000229BECF21B0>
+2025-04-12 12:42:25,462 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000229BDCDDD50> server_hostname='api.groq.com' timeout=None
+2025-04-12 12:42:25,479 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002299E451B20>
+2025-04-12 12:42:25,479 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:25,479 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-12 12:42:25,479 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-12 12:42:25,479 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-12 12:42:25,479 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:26,094 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 12 Apr 2025 07:12:30 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'92f0ea68e9a684f5-BOM'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14398'), (b'X-Ratelimit-Remaining-Tokens', b'3578'), (b'X-Ratelimit-Reset-Requests', b'9.822s'), (b'X-Ratelimit-Reset-Tokens', b'24.219s'), (b'X-Request-Id', b'req_01jrmdffdyfspvcxqn8zhe38ck'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-12 12:42:26,094 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 12:42:26,094 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-12 12:42:26,094 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-12 12:42:26,094 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-12 12:42:26,094 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-12 12:42:26,094 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Sat, 12 Apr 2025 07:12:30 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '92f0ea68e9a684f5-BOM', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '3578', 'x-ratelimit-reset-requests': '9.822s', 'x-ratelimit-reset-tokens': '24.219s', 'x-request-id': 'req_01jrmdffdyfspvcxqn8zhe38ck', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-12 12:42:26,110 - Update-Structure - INFO - Perform Sentiment Analysis
+2025-04-12 12:42:26,110 - Update-Structure - INFO - Sentiment - Positive
+2025-04-12 12:42:26,110 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are an advanced AI software engineer tasked with generating production-ready code for a software project. Use the following inputs to guide your code generation:\n                                        ### **Inputs:**\n                                        1. **Tech Stack:** Python, Django, Streamlit\n                                        2. **User Story:** **Refined User Story:**\nAs a player, I want to control a bird through pipes to achieve a high score and enjoy the game, so that I can experience a fun and challenging gaming experience.\n\n**Acceptance Criteria:**\n\n1. **Gameplay Mechanics:** The bird should move upward when the player clicks or presses the spacebar (or another specified key), and gravity should pull it downward when no input is provided.\n\n2. **Responsive Design:** The game should function smoothly on both desktop and mobile devices without any performance issues.\n\n3. **Collision Detection:** The game should end when the bird collides with a pipe or the ground, and the player\'s score should be displayed at the end of each game.\n\n**Feedback Summary:**\n\nThe user story was refined to provide a clearer goal and benefit, focusing on the player\'s experience and enjoyment. Acceptance criteria were added to ensure the story is testable and aligns with project objectives. The refined user story meets the INVEST criteria by being independent, negotiable, valuable, estimable, small, and testable.\n                                        3. **Design Document:** **Software Design Document (SDD)**\n=============================\n\n**Functional Design Document (FDD)**\n--------------------------------\n\n### Overview\nThe Bird Game is a single-player game where a player controls a bird to navigate through pipes and achieve a high score. The game is designed to be fun and challenging, with smooth gameplay on both desktop and mobile devices.\n\n### User Roles & Permissions\nThere is only one role in this game: the player.\n\n### User Journeys & Flows\n1. The player starts the game by clicking the "Start" button.\n2. The player controls the bird by clicking or pressing the spacebar to move it upward.\n3. Gravity pulls the bird downward when no input is provided.\n4. The game ends when the bird collides with a pipe or the ground.\n5. The player\'s score is displayed at the end of each game.\n\n### Functional Requirements\n1. **Gameplay Mechanics:**\n\t* Acceptance Criteria: The bird should move upward when the player clicks or presses the spacebar (or another specified key), and gravity should pull it downward when no input is provided.\n2. **Responsive Design:**\n\t* Acceptance Criteria: The game should function smoothly on both desktop and mobile devices without any performance issues.\n3. **Collision Detection:**\n\t* Acceptance Criteria: The game should end when the bird collides with a pipe or the ground, and the player\'s score should be displayed at the end of each game.\n\n### UI/UX Considerations\nThe game\'s interface should be simple and intuitive, with a focus on responsive design to ensure a smooth gaming experience on various devices. The game will feature a bird that can be controlled using the spacebar or a specified key, with pipes and a ground that the bird can collide with.\n\n**Technical Design Document (TDD)**\n--------------------------------\n\n### System Architecture\nThe Bird Game will be built as a monolithic application using a web-based development framework.\n\n### Tech Stack\n* Front-end: HTML5, CSS3, JavaScript\n* Back-end: Node.js\n* Framework: Express.js\n* Database: LocalStorage (for storing game data and scores)\n\n### Data Model & APIs\nThe game will store player scores and game data using LocalStorage. There will be no APIs used in this game.\n\n### Scalability & Deployment\nThe game will be deployed on a cloud-based infrastructure, with scalability strategies in place to handle increased traffic and player engagement. CI/CD pipelines will be used to automate testing, building, and deployment of the game.\n\n**Data Flow Diagrams**\n```\ndfd 1\n+-------------------------------+\n|         Player                |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Input (spacebar or click)  |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Bird Movement (up/down)    |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Collision Detection       |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Game Over (score display) |\n+-------------------------------+\n```\n\n```\ndfd 2\n+-------------------------------+\n|         Player                |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Score Storage (LocalStorage) |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Game Data (LocalStorage)    |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Game Logic (JavaScript)    |\n+-------------------------------+\n```\n\n```\ndfd 3\n+-------------------------------+\n|         Player                |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Cloud Infrastructure       |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  CI/CD Pipelines (Automated) |\n+-------------------------------+\n       |\n       |\n       v\n+-------------------------------+\n|  Deployment (Cloud-Based)  |\n+-------------------------------+\n```\n\n**Database Diagram**\n```\n+---------------+\n|  LocalStorage  |\n+---------------+\n|  Scores        |\n|  Game Data     |\n+---------------+\n```\nNote: The database diagram is a simplified representation of the LocalStorage used in the game.\n\n                                        ### **Requirements:**\n                                        - Generate a complete **file structure** for the project, ensuring modularity and scalability.\n                                        - Write code for each file in the project, adhering to the specified tech stack and aligning with the user story and design document.\n                                        - Ensure the code follows industry best practices, including:\n                                        - Readability and maintainability.\n                                        - Performance optimization.\n                                        - Security compliance.\n                                        - Proper error handling and logging.\n\n                                        ### **Output Format:**\n                                        1. **File Structure:** Provide a hierarchical representation of the project folder structure.\n                                        2. For each file in the project:\n                                        - **File Name:** Name of the file.\n                                        - **Code:** Include the complete code for the file.\n\n                                        ### **Additional Notes:**\n                                        - Use meaningful variable and function names.\n                                        - Add inline comments and documentation where necessary.\n                                        - Ensure the code is ready for deployment and includes any required configuration files.\n                                        - Provide the output in **Markdown** format for easy readability.\n                                        \n                                        Generate the code based on the above requirements and format.'}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Code_Format'}}, 'tools': [{'type': 'function', 'function': {'name': 'Code_Format', 'description': '', 'parameters': {'properties': {'file_structure': {'description': 'Represents the file_name in hierarchical format in markdown.', 'type': 'string'}, 'code': {'description': 'All code present under different files, with file_name in markdown.', 'items': {'properties': {'file_name': {'description': 'name of code file', 'type': 'string'}, 'code': {'description': 'Code under the file_name.', 'type': 'string'}}, 'required': ['file_name', 'code'], 'type': 'object'}, 'type': 'array'}}, 'required': ['file_structure', 'code'], 'type': 'object'}}}]}}
+2025-04-12 12:42:26,110 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-12 12:42:26,110 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:26,126 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-12 12:42:26,126 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-12 12:42:26,126 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-12 12:42:26,126 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-12 12:42:26,224 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:42:27,054 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:42:28,246 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Date', b'Sat, 12 Apr 2025 07:12:32 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'536'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'92f0ea6cfd4c84f5-BOM'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14397'), (b'X-Ratelimit-Remaining-Tokens', b'797'), (b'X-Ratelimit-Reset-Requests', b'17.368s'), (b'X-Ratelimit-Reset-Tokens', b'52.021s'), (b'X-Request-Id', b'req_01jrmdfg1pfs2r7ktx1p9rg7zd'), (b'Server', b'cloudflare'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-12 12:42:28,246 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-12 12:42:28,246 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-12 12:42:28,246 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-12 12:42:28,246 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-12 12:42:28,246 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-12 12:42:28,246 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "400 Bad Request" Headers({'date': 'Sat, 12 Apr 2025 07:12:32 GMT', 'content-type': 'application/json', 'content-length': '536', 'connection': 'keep-alive', 'cf-ray': '92f0ea6cfd4c84f5-BOM', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14397', 'x-ratelimit-remaining-tokens': '797', 'x-ratelimit-reset-requests': '17.368s', 'x-ratelimit-reset-tokens': '52.021s', 'x-request-id': 'req_01jrmdfg1pfs2r7ktx1p9rg7zd', 'server': 'cloudflare', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-12 12:42:28,246 - groq._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "D:\krish\llm_app\.venv\Lib\site-packages\groq\_base_client.py", line 999, in _request
+    response.raise_for_status()
+  File "D:\krish\llm_app\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://api.groq.com/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-04-12 12:42:28,246 - groq._base_client - DEBUG - Not retrying
+2025-04-12 12:42:28,246 - groq._base_client - DEBUG - Re-raising status error
+2025-04-12 12:42:29,075 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-12 12:51:19,259 - langsmith.client - DEBUG - Closing Client.session
+2025-04-12 12:51:19,259 - langsmith.client - DEBUG - Closing Client.session

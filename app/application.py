@@ -9,6 +9,7 @@ from src.share import State
 from app.uiconfig import Config
 from src.Model.model import model
 import ast
+from app.sidebar import LLM_Selection
 
 from src.log.logger import logging
 
@@ -20,11 +21,15 @@ class UI:
         # Initialize session state variables
         if "model" not in st.session_state:
             st.session_state.model = None
+
         if "reasoning_model" not in st.session_state:
             st.session_state.reasoning_model = None
 
         if "state" not in st.session_state:
             st.session_state.state = 'START'
+
+        if 'save' not in st.session_state:
+            st.session_state.save = False
 
         # Configuration
         if "config" not in st.session_state:
@@ -75,42 +80,15 @@ class UI:
         st.header(header)
         logui.info('Headers')
             
-        # Sidebar for metadata
-        with st.sidebar:
-            #----- MAIN MODEL -----#
-            self.user_controls['LLM'] = st.selectbox(label= "Select LLM", options= self.config.get_llm_options())
-            
-            if self.user_controls['LLM'] == 'Groq':
-                logui.info('LLM-GROQ')
-                self.user_controls['Model'] = st.selectbox(label= 'Choose Model', options= self.config.get_groq_model_options())
-                logui.info(self.user_controls['Model'])
-                st.session_state.selected_llm = model.groq_llm(self.user_controls['Model'])   #{'type':'GROQ', 'model':self.user_controls['Model']}
-            
-                #----- API KEY -----#
-                self.user_controls['API_KEY'] = st.text_input('Enter Groq API Key: ', type='password')
-                if self.user_controls['API_KEY']:
-                    os.environ['GROQ_API_KEY'] = self.user_controls['API_KEY']
-                    logui.info('GROQ_API_KEY')
-                else:
-                    st.warning("⚠️ Please enter your GROQ API key to proceed. Don't have? refer : https://console.groq.com/keys ")
-                    logui.error('NO API KEY')
-            
+        #----- Sidebar for metadata -----
+        llm_selction =  LLM_Selection(self.user_controls, self.config)
+        self.user_controls = llm_selction.sidebar()
+        print("-"*100)
+        print(self.user_controls)
 
-            if self.user_controls['LLM'] == 'Ollama':
-                logui.info('LLM-OLLAMA')
-                self.user_controls['Model'] = st.selectbox(label= 'Choose Model', options= self.config.get_ollama_model_options())
-                logui.info(self.user_controls['Model'])
-                st.session_state.model = model.ollama_llm(self.user_controls['Model'])  #{'type':'OLLAMA', 'model':self.user_controls['Model']}
-                
-            #----- REASONING MODEL -----#   
-            self.user_controls['LLM_REASONING'] = st.selectbox(label= 'Select Reasoninig LLM', options= self.config.get_llm_reasoning())
-
-            if self.user_controls['LLM_REASONING'] == 'Ollama':
-                self.user_controls['Reasoning_Model'] = st.selectbox(label= 'Choose Reasoning Model', options= self.config.get_reasoning_model())
-                st.session_state.reasoning_model = model.ollama_llm(self.user_controls['Reasoning_Model'])  #{'type':'Ollama', 'model':self.user_controls['Reasoning_Model']}
-                logui.info('LLM_reasoning_Ollama')
-                
+        #----- Initialize graph -----#        
         if self.user_controls.get('API_KEY') or self.user_controls['LLM'] == 'Ollama':
+
             if st.session_state.model and st.session_state.reasoning_model:
                 print("LLM corr")
                 #----- graph.invoke() -----#
