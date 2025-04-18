@@ -1,0 +1,623 @@
+2025-04-18 18:23:16,360 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:23:16,361 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:23:16,617 - UI - INFO - Headers
+2025-04-18 18:23:16,617 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:23:16,617 - UI - INFO - LLM-GROQ
+2025-04-18 18:23:16,618 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:23:16,618 - UI - INFO - llama3-8b-8192
+2025-04-18 18:23:17,267 - UI - ERROR - NO API KEY
+2025-04-18 18:23:17,267 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:23:17,268 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:23:17,745 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:23:28,001 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:23:28,002 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:23:28,005 - UI - INFO - Headers
+2025-04-18 18:23:28,005 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:23:28,007 - UI - INFO - LLM-GROQ
+2025-04-18 18:23:28,008 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:23:28,010 - UI - INFO - llama3-8b-8192
+2025-04-18 18:23:28,529 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:23:28,529 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:23:28,530 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:23:29,015 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:23:30,443 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:23:30,445 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:23:30,447 - UI - INFO - Headers
+2025-04-18 18:23:30,448 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:23:30,450 - UI - INFO - LLM-GROQ
+2025-04-18 18:23:30,450 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:23:30,453 - UI - INFO - llama3-8b-8192
+2025-04-18 18:23:30,980 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:23:30,980 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:23:30,981 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:23:31,443 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:23:31,460 - UI - INFO - Graph Initialization
+2025-04-18 18:23:31,460 - UI - INFO - render_process
+2025-04-18 18:23:31,473 - UI - INFO - UI_START
+2025-04-18 18:23:32,158 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:23:32,158 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:23:32,158 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:23:32,158 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:23:32,158 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:23:32,158 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:23:51,264 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:23:51,264 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:23:51,265 - UI - INFO - Headers
+2025-04-18 18:23:51,265 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:23:51,266 - UI - INFO - LLM-GROQ
+2025-04-18 18:23:51,266 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:23:51,266 - UI - INFO - llama3-8b-8192
+2025-04-18 18:23:51,737 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:23:51,737 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:23:51,744 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:23:52,210 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:23:52,210 - UI - INFO - render_process
+2025-04-18 18:23:52,210 - UI - INFO - UI_START
+2025-04-18 18:23:52,217 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:23:52,217 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:23:52,217 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:23:52,217 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:23:52,217 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:23:52,217 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:24:03,955 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:24:03,955 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:24:03,960 - UI - INFO - Headers
+2025-04-18 18:24:03,960 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:24:03,962 - UI - INFO - LLM-GROQ
+2025-04-18 18:24:03,963 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:24:03,965 - UI - INFO - llama3-8b-8192
+2025-04-18 18:24:04,538 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:24:04,538 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:24:04,539 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:24:04,994 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:24:04,995 - UI - INFO - render_process
+2025-04-18 18:24:04,999 - UI - INFO - UI_START
+2025-04-18 18:24:05,001 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:24:05,002 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:24:05,002 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:24:05,002 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:24:05,002 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:24:05,002 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:24:11,897 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:24:11,897 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:24:11,898 - UI - INFO - Headers
+2025-04-18 18:24:11,898 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:24:11,898 - UI - INFO - LLM-GROQ
+2025-04-18 18:24:11,898 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:24:11,899 - UI - INFO - llama3-8b-8192
+2025-04-18 18:24:12,369 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:24:12,369 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:24:12,370 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:24:12,840 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:24:12,841 - UI - INFO - render_process
+2025-04-18 18:24:12,844 - UI - INFO - UI_START
+2025-04-18 18:24:12,879 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-04-18 18:24:12,975 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-18 18:24:13,389 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 709
+2025-04-18 18:24:13,836 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:24:15,006 - httpcore.connection - DEBUG - connect_tcp.failed exception=ConnectError(ConnectionRefusedError(10061, 'No connection could be made because the target machine actively refused it', None, 10061, None))
+2025-04-18 18:24:15,944 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:24:34,699 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:24:34,699 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:24:34,699 - UI - INFO - Headers
+2025-04-18 18:24:34,699 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:24:34,699 - UI - INFO - LLM-GROQ
+2025-04-18 18:24:34,699 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:24:34,699 - UI - INFO - llama3-8b-8192
+2025-04-18 18:24:35,213 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:24:35,213 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:24:35,213 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:24:35,698 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:24:35,703 - UI - INFO - render_process
+2025-04-18 18:24:35,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:24:35,719 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:24:35,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:24:35,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:24:35,719 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:24:35,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:24:39,451 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:24:39,451 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:24:39,451 - UI - INFO - Headers
+2025-04-18 18:24:39,451 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:24:39,452 - UI - INFO - LLM-GROQ
+2025-04-18 18:24:39,452 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:24:39,453 - UI - INFO - llama3-8b-8192
+2025-04-18 18:24:39,950 - UI - ERROR - NO API KEY
+2025-04-18 18:24:39,950 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:24:39,950 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:24:40,460 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:24:44,447 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:24:44,447 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:24:44,448 - UI - INFO - Headers
+2025-04-18 18:24:44,448 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:24:44,449 - UI - INFO - LLM-GROQ
+2025-04-18 18:24:44,449 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:24:44,449 - UI - INFO - llama3-8b-8192
+2025-04-18 18:24:44,938 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:24:44,939 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:24:44,939 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:24:45,437 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:24:46,160 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:24:46,160 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:24:46,162 - UI - INFO - Headers
+2025-04-18 18:24:46,162 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:24:46,163 - UI - INFO - LLM-GROQ
+2025-04-18 18:24:46,163 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:24:46,165 - UI - INFO - llama3-8b-8192
+2025-04-18 18:24:46,684 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:24:46,684 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:24:46,684 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:24:47,180 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:24:47,197 - UI - INFO - Graph Initialization
+2025-04-18 18:24:47,198 - UI - INFO - render_process
+2025-04-18 18:24:47,204 - UI - INFO - UI_START
+2025-04-18 18:24:47,207 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:24:47,207 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:24:47,207 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:24:47,207 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:24:47,207 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:24:47,207 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:25:04,297 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:25:04,298 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:25:04,301 - UI - INFO - Headers
+2025-04-18 18:25:04,301 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:25:04,303 - UI - INFO - LLM-GROQ
+2025-04-18 18:25:04,305 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:25:04,307 - UI - INFO - llama3-8b-8192
+2025-04-18 18:25:04,422 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:25:04,422 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:25:04,422 - UI - INFO - Headers
+2025-04-18 18:25:04,422 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:25:04,424 - UI - INFO - LLM-GROQ
+2025-04-18 18:25:04,424 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:25:04,424 - UI - INFO - llama3-8b-8192
+2025-04-18 18:25:05,011 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:25:05,011 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:25:05,012 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:25:05,495 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:25:05,497 - UI - INFO - render_process
+2025-04-18 18:25:05,500 - UI - INFO - UI_START
+2025-04-18 18:25:05,506 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-18 18:25:05,507 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8ED1F2990>
+2025-04-18 18:25:05,507 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:25:05,518 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:25:05,518 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:25:05,519 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:25:05,520 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:25:06,381 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:25:13,463 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Fri, 18 Apr 2025 12:55:13 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-04-18 18:25:13,463 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-18 18:25:13,463 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:25:28,451 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:25:28,451 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:25:28,451 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:25:28,458 - Update-Structure - INFO - Genrated - User Story
+2025-04-18 18:25:28,507 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:25:28,507 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:25:28,507 - UI - INFO - Headers
+2025-04-18 18:25:28,507 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:25:28,508 - UI - INFO - LLM-GROQ
+2025-04-18 18:25:28,508 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:25:28,508 - UI - INFO - llama3-8b-8192
+2025-04-18 18:25:29,006 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:25:29,007 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:25:29,007 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:25:29,409 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:25:29,532 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:25:29,533 - UI - INFO - render_process
+2025-04-18 18:25:29,549 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:25:29,549 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:25:29,549 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:25:29,549 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:25:29,550 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:25:29,550 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:25:33,880 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:25:33,881 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:25:33,883 - UI - INFO - Headers
+2025-04-18 18:25:33,884 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:25:33,886 - UI - INFO - LLM-GROQ
+2025-04-18 18:25:33,886 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:25:33,888 - UI - INFO - llama3-8b-8192
+2025-04-18 18:25:34,430 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:25:34,430 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:25:34,430 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:25:34,918 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:25:34,919 - UI - INFO - render_process
+2025-04-18 18:25:34,961 - Update-Structure - INFO - User_Story_Sentiment
+2025-04-18 18:25:34,971 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Understand the feedback.'}, {'role': 'user', 'content': 'Feedback: '}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Feedback'}}, 'tools': [{'type': 'function', 'function': {'name': 'Feedback', 'description': '', 'parameters': {'properties': {'grade': {'enum': ['positive', 'negative'], 'type': 'string'}, 'user_feedback': {'description': 'Holds the feedback input gathered from client or agent generated', 'type': 'string'}}, 'required': ['grade', 'user_feedback'], 'type': 'object'}}}]}}
+2025-04-18 18:25:34,972 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:25:34,973 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-18 18:25:35,010 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8ED1F2B70>
+2025-04-18 18:25:35,010 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002D8E20B9CD0> server_hostname='api.groq.com' timeout=None
+2025-04-18 18:25:35,074 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8C28273B0>
+2025-04-18 18:25:35,074 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:25:35,075 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:25:35,076 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:25:35,076 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:25:35,076 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:25:35,665 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 18 Apr 2025 12:55:35 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9324513b3f1a5470-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14399'), (b'X-Ratelimit-Remaining-Tokens', b'5982'), (b'X-Ratelimit-Reset-Requests', b'6s'), (b'X-Ratelimit-Reset-Tokens', b'180ms'), (b'X-Request-Id', b'req_01js4fg08rfwtvt1ptmqd48yea'), (b'Set-Cookie', b'__cf_bm=pxrW5lL3TA34Cyp7OeTembinG1S6HBW.QqzApdDWajs-1744980935-1.0.1.1-MCIBTfM93FVydBEFYqrTZyFYETL4i7yY.QIckneX73Mj0rFQH20hCWPJDDvA1yptTS4tRMRdqycbiA5WU1iXggFYpCte1WaCUkEd52z6OFs; path=/; expires=Fri, 18-Apr-25 13:25:35 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:25:35,667 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 18:25:35,679 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:25:35,681 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:25:35,681 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:25:35,681 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:25:35,683 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 18 Apr 2025 12:55:35 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9324513b3f1a5470-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '5982', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '180ms', 'x-request-id': 'req_01js4fg08rfwtvt1ptmqd48yea', 'set-cookie': '__cf_bm=pxrW5lL3TA34Cyp7OeTembinG1S6HBW.QqzApdDWajs-1744980935-1.0.1.1-MCIBTfM93FVydBEFYqrTZyFYETL4i7yY.QIckneX73Mj0rFQH20hCWPJDDvA1yptTS4tRMRdqycbiA5WU1iXggFYpCte1WaCUkEd52z6OFs; path=/; expires=Fri, 18-Apr-25 13:25:35 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:25:35,741 - Update-Structure - INFO - Perform Sentiment Analysis
+2025-04-18 18:25:35,742 - Update-Structure - INFO - Sentiment - Positive
+2025-04-18 18:25:35,757 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are a **Senior Product Owner** tasked with refining and validating the provided user story. Use the following inputs to guide your feedback:\n                                ### **Inputs:**\n                                1. **User Story:** <think>\nOkay, so I need to help create a user story based on the provided game requirement. The task has three parts: generating a user story using the standard format, adding acceptance criteria, and evaluating it with the INVEST framework.\n\nFirst, understanding the requirements: the game is about moving a bird through pipes without hitting them. The bird moves upward when a key is pressed or clicked, gravity pulls it down otherwise. The game ends on collision with pipes or ground. Pipes come at random heights, have gaps, and move leftward. Scoring happens per pipe passed, with sounds and visuals included. It should be responsive across devices, allow restarts, etc.\n\nSo for the user story, I'm acting as a casual gamer who wants to play this game. My goal is to successfully pass through all pipes without dying, which allows me to keep playing or unlock achievements. The benefit would be an engaging and fun gaming experience with smooth controls.\n\nNext, acceptance criteria: I'll list 2-3 clear points. Maybe check if the bird moves correctly on key press, gravity works when nothing is pressed, game ends on collision, pipes appear at random heights, have gaps, move left, scoring updates, sounds play appropriately, and the game works on both desktop and mobile.\n\nNow evaluating with INVEST:\n\nIndependent: The user story doesn't rely on external systems or services beyond basic internet access. It's self-contained.\n\nNegotiable: The physics parameters can be adjusted if needed, so it's flexible.\n\nValuable: It provides an entertaining game experience that could attract players looking for simple, fun games.\n\nEstimable: Feasible within typical project timelines and resources.\n\nSmall: The scope isn't overwhelming but requires several features to be implemented together.\n\nTestable: Each part can be tested individually without affecting the whole system.\n\nPutting this all together, I think I covered each aspect correctly. Just need to present it clearly.\n</think>\n\n### User Story:\n**As a casual gamer,**  \nI want to successfully navigate through pipes without dying, which allows me to continue playing or unlock achievements.  \nSo that I can enjoy an engaging and fun gaming experience with smooth controls.\n\n---\n\n### Acceptance Criteria:\n1. The bird moves upward when the player presses or clicks a key (e.g., spacebar) and gravity pulls it downward when no input is provided.\n2. The game ends if the bird collides with a pipe or the ground.\n3. Pipes appear at random heights, have gaps between them, and move from right to left.\n\n---\n\n### INVEST Evaluation:\n\n- **Independent**:  \n  The user story is self-contained and does not rely on external systems or services beyond basic internet access.\n\n- **Negotiable**:  \n  The physics parameters (e.g., gravity strength, bird thrust) can be adjusted if needed for different play experiences.\n\n- **Valuable**:  \n  The user story provides an entertaining game experience that could attract casual gamers looking for a simple and fun activity.\n\n- **Estimable**:  \n  The scope is feasible within typical project timelines and resources, focusing on core functionalities.\n\n- **Small**:  \n  While it involves multiple features (movement, collision detection, pipe generation), the complexity isn't overwhelming.\n\n- **Testable**:  \n  Each feature can be tested independently without affecting the entire system's functionality.\n\n                                ### **Task:**\n                                - Analyze the provided user story for completeness, clarity, and alignment with project goals.\n                                - Refine the user story to ensure it meets the following criteria:\n                                - **Independent:** Can be developed independently of other stories.\n                                - **Negotiable:** Allows for discussion and refinement.\n                                - **Valuable:** Provides clear value to the end user.\n                                - **Estimable:** Can be estimated for effort and complexity.\n                                - **Small:** Is small enough to be completed in a single sprint.\n                                - **Testable:** Includes clear acceptance criteria for validation.\n\n                                ### **Output Format:**\n                                1. **Refined User Story:** Provide the updated user story in the following format:\n                                - **As a [user role], I want to [goal], so that [benefit].**\n                                2. **Acceptance Criteria:** List 2–3 clear and testable acceptance criteria.\n                                3. **Feedback Summary:** Provide a summary of the changes made and why they were necessary.\n\n                                ### **Example Output:**\n                                1. Refined User Story:\n                                    - As a project manager, I want to track project progress, so that I can ensure timely delivery.\n                                2. Acceptance Criteria:\n                                    - The system should allow users to create and update project milestones.\n                                    - The system should display a Gantt chart for visualizing project timelines.\n                                    - The system should send email notifications for overdue tasks.\n                                3. Feedback Summary:\n                                    - The user story was refined to include a clear goal and benefit.\n                                    - Acceptance criteria were added to ensure the story is testable and aligns with project objectives.\n                                Refine the user story based on the above criteria and format."}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-18 18:25:35,761 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:25:35,762 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:25:35,763 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:25:35,763 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:25:35,763 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:25:35,763 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:25:35,791 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:25:36,532 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 18 Apr 2025 12:55:36 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'9324513f8a515470-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14398'), (b'X-Ratelimit-Remaining-Tokens', b'3580'), (b'X-Ratelimit-Reset-Requests', b'11.323s'), (b'X-Ratelimit-Reset-Tokens', b'24.198999999s'), (b'X-Request-Id', b'req_01js4fg0yaf1qsgbkpgn4vmm9e'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:25:36,532 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 18:25:36,533 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:25:36,534 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:25:36,534 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:25:36,534 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:25:36,535 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 18 Apr 2025 12:55:36 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '9324513f8a515470-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '3580', 'x-ratelimit-reset-requests': '11.323s', 'x-ratelimit-reset-tokens': '24.198999999s', 'x-request-id': 'req_01js4fg0yaf1qsgbkpgn4vmm9e', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:25:36,552 - Update-Structure - INFO - System_FeedBack - User Story
+2025-04-18 18:25:36,571 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are an AI software architect tasked with generating a **Software Design Document (SDD)** based on **approved user stories**:**Refined User Story:**\nAs a casual gamer, I want to navigate the bird through pipes to achieve a high score, so that I can experience a fun and engaging game.\n\n**Acceptance Criteria:**\n1. The bird moves upward when the player presses or clicks a key (e.g., spacebar) and gravity pulls it downward when no input is provided.\n2. The game ends if the bird collides with a pipe or the ground, and displays a restart option.\n3. Pipes appear at random heights, have gaps between them, and move from right to left, and the game scores points for each pipe passed.\n\n**Feedback Summary:**\nThe user story was refined to focus on the core goal of the game, which is to navigate the bird through pipes to achieve a high score. The acceptance criteria were updated to ensure that the game ends when the bird collides with a pipe or the ground, and that the game scores points for each pipe passed. Additionally, the user story and acceptance criteria are now more concise and easy to understand..  \n                                            ### **Task:**  \n                                            Create both **Functional Design Document (FDD)** and **Technical Design Document (TDD)**.  \n\n                                            #### **1. Functional Design Document (FDD)**  \n                                            - **Overview:** High-level system summary.  \n                                            - **User Roles & Permissions:** Define roles and access.  \n                                            - **User Journeys & Flows:** Describe interactions.  \n                                            - **Functional Requirements:** Feature breakdown with acceptance criteria.  \n                                            - **UI/UX Considerations:** Expected interface and usability.  \n\n                                            #### **2. Technical Design Document (TDD)**  \n                                            - **System Architecture:** Define structure (e.g., Microservices, Monolith).  \n                                            - **Tech Stack:** Languages, frameworks, and tools.  \n                                            - **Data Model & APIs:** Database schema, API endpoints, and security.  \n                                            - **Scalability & Deployment:** Performance strategies, CI/CD, and cloud infrastructure.  \n\n                                            ### **Output:**  \n                                            Provide a clear, structured SDD covering both **FDD** and **TDD** for developer and stakeholder review. \n                                            Also provide a Data flow diagram: \n                                                dfd 1 #diageam\n                                                dfd 2 #diageam\n                                                dfd 3 #diageam\n                                            Data base diagram. #diageam\n                                            Provide the output in markdown.'}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-18 18:25:36,574 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:25:36,575 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:25:36,576 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:25:36,576 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:25:36,577 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:25:36,577 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:25:36,681 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:25:37,572 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:25:37,938 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 18 Apr 2025 12:55:37 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'932451449dc05470-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14397'), (b'X-Ratelimit-Remaining-Tokens', b'3076'), (b'X-Ratelimit-Reset-Requests', b'17.165s'), (b'X-Ratelimit-Reset-Tokens', b'29.236s'), (b'X-Request-Id', b'req_01js4fg1rfe37t63q0ctvazsz5'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:25:37,939 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 18:25:37,939 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:25:37,941 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:25:37,941 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:25:37,941 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:25:37,942 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 18 Apr 2025 12:55:37 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '932451449dc05470-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14397', 'x-ratelimit-remaining-tokens': '3076', 'x-ratelimit-reset-requests': '17.165s', 'x-ratelimit-reset-tokens': '29.236s', 'x-request-id': 'req_01js4fg1rfe37t63q0ctvazsz5', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:25:37,959 - Update-Structure - INFO - Created - Blue Print
+2025-04-18 18:25:37,987 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:25:37,987 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:25:37,988 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:25:37,988 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:25:37,988 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:25:37,988 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:25:38,843 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:25:42,126 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:25:42,126 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:25:42,129 - UI - INFO - Headers
+2025-04-18 18:25:42,129 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:25:42,130 - UI - INFO - LLM-GROQ
+2025-04-18 18:25:42,130 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:25:42,130 - UI - INFO - llama3-8b-8192
+2025-04-18 18:25:42,609 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:25:42,609 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:25:42,609 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:25:43,114 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:25:43,116 - UI - INFO - render_process
+2025-04-18 18:25:43,122 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:25:43,122 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:25:43,122 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:25:43,123 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:25:43,123 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:25:43,123 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:26:32,799 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:26:32,799 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:26:32,802 - UI - INFO - Headers
+2025-04-18 18:26:32,803 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:26:32,804 - UI - INFO - LLM-GROQ
+2025-04-18 18:26:32,804 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:26:32,805 - UI - INFO - llama3-8b-8192
+2025-04-18 18:26:32,880 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:26:32,880 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:26:32,881 - UI - INFO - Headers
+2025-04-18 18:26:32,881 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:26:32,882 - UI - INFO - LLM-GROQ
+2025-04-18 18:26:32,882 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:26:32,882 - UI - INFO - llama3-8b-8192
+2025-04-18 18:26:33,488 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:26:33,489 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:26:33,489 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:26:33,972 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:26:33,973 - UI - INFO - render_process
+2025-04-18 18:26:33,980 - Update-Structure - INFO - Feedback - Blue Print
+2025-04-18 18:26:33,986 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Understand the feedback.'}, {'role': 'user', 'content': 'Feedback: '}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Feedback'}}, 'tools': [{'type': 'function', 'function': {'name': 'Feedback', 'description': '', 'parameters': {'properties': {'grade': {'enum': ['positive', 'negative'], 'type': 'string'}, 'user_feedback': {'description': 'Holds the feedback input gathered from client or agent generated', 'type': 'string'}}, 'required': ['grade', 'user_feedback'], 'type': 'object'}}}]}}
+2025-04-18 18:26:33,987 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:26:33,987 - httpcore.connection - DEBUG - close.started
+2025-04-18 18:26:33,998 - httpcore.connection - DEBUG - close.complete
+2025-04-18 18:26:33,999 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-18 18:26:34,028 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8E20C6E10>
+2025-04-18 18:26:34,028 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002D8E20B9CD0> server_hostname='api.groq.com' timeout=None
+2025-04-18 18:26:34,061 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8C3861310>
+2025-04-18 18:26:34,063 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:26:34,063 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:26:34,063 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:26:34,063 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:26:34,063 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:26:34,576 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 18 Apr 2025 12:56:34 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'932452abdc28549b-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14399'), (b'X-Ratelimit-Remaining-Tokens', b'5982'), (b'X-Ratelimit-Reset-Requests', b'6s'), (b'X-Ratelimit-Reset-Tokens', b'180ms'), (b'X-Request-Id', b'req_01js4fhswffygv5a9yhr16404h'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:26:34,577 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 18:26:34,578 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:26:34,578 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:26:34,579 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:26:34,579 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:26:34,579 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 18 Apr 2025 12:56:34 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '932452abdc28549b-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '5982', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '180ms', 'x-request-id': 'req_01js4fhswffygv5a9yhr16404h', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:26:34,600 - Update-Structure - INFO - Perform Sentiment Analysis
+2025-04-18 18:26:34,601 - Update-Structure - INFO - Sentiment - Positive
+2025-04-18 18:26:34,620 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are an advanced AI software engineer tasked with generating production-ready code for a software project. Use the following inputs to guide your code generation:\n                                        ### **Inputs:**\n                                        1. **Tech Stack:** Python, Django, Streamlit\n                                        2. **User Story:** **Refined User Story:**\nAs a casual gamer, I want to navigate the bird through pipes to achieve a high score, so that I can experience a fun and engaging game.\n\n**Acceptance Criteria:**\n1. The bird moves upward when the player presses or clicks a key (e.g., spacebar) and gravity pulls it downward when no input is provided.\n2. The game ends if the bird collides with a pipe or the ground, and displays a restart option.\n3. Pipes appear at random heights, have gaps between them, and move from right to left, and the game scores points for each pipe passed.\n\n**Feedback Summary:**\nThe user story was refined to focus on the core goal of the game, which is to navigate the bird through pipes to achieve a high score. The acceptance criteria were updated to ensure that the game ends when the bird collides with a pipe or the ground, and that the game scores points for each pipe passed. Additionally, the user story and acceptance criteria are now more concise and easy to understand.\n                                        3. **Design Document:** **Software Design Document (SDD)**\n\n**Functional Design Document (FDD)**\n\n### Overview\n\nThe Bird Through Pipes game is a casual gaming application that allows players to navigate a bird through pipes to achieve a high score. The game features gravity-based movement, randomly appearing pipes, and scoring points for each pipe passed.\n\n### User Roles & Permissions\n\n* **Player**: The primary user of the game, responsible for navigating the bird through the pipes.\n* **Admin**: A secondary role with limited access to game settings and statistics.\n\n### User Journeys & Flows\n\n1. **Start Game**: The player initiates the game by clicking the "Start" button or pressing the spacebar.\n2. **Gameplay**: The bird moves upward when the player presses or clicks a key, and gravity pulls it downward when no input is provided. The player navigates the bird through the pipes, aiming to pass each pipe without colliding.\n3. **Collision**: If the bird collides with a pipe or the ground, the game ends, and a restart option is displayed.\n4. **Restart**: The player can restart the game by clicking the "Restart" button.\n5. **Scorekeeping**: The game keeps track of the player\'s score, displaying it on the screen.\n\n### Functional Requirements\n\n1. **Bird Movement**: The bird moves upward when the player presses or clicks a key, and gravity pulls it downward when no input is provided.\n\t* Acceptance Criteria: The bird moves upward when the player presses or clicks a key, and gravity pulls it downward when no input is provided.\n2. **Pipe Generation**: Pipes appear at random heights, have gaps between them, and move from right to left.\n\t* Acceptance Criteria: Pipes appear at random heights, have gaps between them, and move from right to left.\n3. **Scorekeeping**: The game scores points for each pipe passed.\n\t* Acceptance Criteria: The game scores points for each pipe passed.\n4. **Game Over**: The game ends if the bird collides with a pipe or the ground, and displays a restart option.\n\t* Acceptance Criteria: The game ends if the bird collides with a pipe or the ground, and displays a restart option.\n\n### UI/UX Considerations\n\n* The game will feature a simple, colorful interface with easy-to-understand controls.\n* The player\'s score will be displayed prominently on the screen.\n* The game will have a clear "start" and "restart" button.\n\n**Technical Design Document (TDD)**\n\n### System Architecture\n\nThe Bird Through Pipes game will be built as a monolithic application using a single programming language (e.g., JavaScript).\n\n### Tech Stack\n\n* Programming Language: JavaScript\n* Framework: Phaser.io (a popular open-source framework for building HTML5 games)\n* Database: LocalStorage or IndexedDB for storing player statistics and game data\n* APIs: None\n\n### Data Model & APIs\n\nThe game will store player statistics and game data locally using LocalStorage or IndexedDB. No external APIs will be used.\n\n### Scalability & Deployment\n\nThe game will be deployed on a cloud-based infrastructure (e.g., AWS or Google Cloud) using a load balancer and auto-scaling. CI/CD pipelines will be used to automate testing, building, and deployment.\n\n### Data Flow Diagrams\n\n[dfd 1](https://mermaid-js.github.io/mermaid/#/flowchart?id=sequence-diagram-for-bird-through-pipes-game)\n\n```mermaid\nsequenceDiagram\n    participant Player as "Player"\n    participant Game as "Game"\n    participant Pipes as "Pipes"\n    participant Bird as "Bird"\n\n    Player->>Game: Start Game\n    Game->>Pipes: Generate Pipes\n    Game->>Bird: Move Bird\n    Pipes->>Bird: Check Collision\n    Bird->>Game: Update Score\n    Game->>Player: Display Score\n```\n\n[dfd 2](https://mermaid-js.github.io/mermaid/#/flowchart?id=sequence-diagram-for-pipe-generation)\n\n```mermaid\nsequenceDiagram\n    participant Pipes as "Pipes"\n    participant Game as "Game"\n    participant Random as "Random"\n\n    Random->>Pipes: Generate Random Height\n    Pipes->>Game: Generate Pipes\n    Game->>Pipes: Update Pipe Position\n    Pipes->>Game: Check Collision\n    Game->>Player: Display Pipes\n```\n\n[dfd 3](https://mermaid-js.github.io/mermaid/#/flowchart?id=sequence-diagram-for-scorekeeping)\n\n```mermaid\nsequenceDiagram\n    participant Game as "Game"\n    participant Player as "Player"\n    participant Score as "Score"\n\n    Game->>Player: Display Score\n    Player->>Game: Update Score\n    Game->>Score: Update Score\n    Score->>Game: Display Current Score\n```\n\n### Database Diagram\n\n[database diagram](https://dbdiagram.io/diagrams/...)\n\n```mermaid\nerDiagram\n    PLAYER ||--|{ SCORE\n    GAME ||--|{ SCORE\n    SCORE ||--|{ PIPE\n```\n\nThis SDD provides a clear overview of the functional and technical design of the Bird Through Pipes game, including user roles, user journeys, functional requirements, UI/UX considerations, system architecture, tech stack, data model, and scalability and deployment strategies.\n\n                                        ### **Requirements:**\n                                        - Generate a complete **file structure** for the project, ensuring modularity and scalability.\n                                        - Write code for each file in the project, adhering to the specified tech stack and aligning with the user story and design document.\n                                        - Ensure the code follows industry best practices, including:\n                                        - Readability and maintainability.\n                                        - Performance optimization.\n                                        - Security compliance.\n                                        - Proper error handling and logging.\n\n                                        ### **Output Format:**\n                                        1. **File Structure:** Provide a hierarchical representation of the project folder structure.\n                                        2. For each file in the project:\n                                        - **File Name:** Name of the file.\n                                        - **Code:** Include the complete code for the file.\n\n                                        ### **Additional Notes:**\n                                        - Use meaningful variable and function names.\n                                        - Add inline comments and documentation where necessary.\n                                        - Ensure the code is ready for deployment and includes any required configuration files.\n                                        - Provide the output in **Markdown** format for easy readability.\n                                        \n                                        Generate the code based on the above requirements and format.'}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Code_Format'}}, 'tools': [{'type': 'function', 'function': {'name': 'Code_Format', 'description': '', 'parameters': {'properties': {'file_structure': {'description': 'Represents the file_name in hierarchical format in markdown.', 'type': 'string'}, 'code': {'description': 'All code present under different files, with file_name in markdown.', 'items': {'properties': {'file_name': {'description': 'name of code file', 'type': 'string'}, 'code': {'description': 'Code under the file_name.', 'type': 'string'}}, 'required': ['file_name', 'code'], 'type': 'object'}, 'type': 'array'}}, 'required': ['file_structure', 'code'], 'type': 'object'}}}]}}
+2025-04-18 18:26:34,623 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:26:34,623 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:26:34,625 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:26:34,625 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:26:34,626 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:26:34,626 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:26:34,836 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:26:35,663 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:26:36,735 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Date', b'Fri, 18 Apr 2025 12:56:36 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'707'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'932452af6e4c549b-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14398'), (b'X-Ratelimit-Remaining-Tokens', b'3046'), (b'X-Ratelimit-Reset-Requests', b'11.453999999s'), (b'X-Ratelimit-Reset-Tokens', b'29.54s'), (b'X-Request-Id', b'req_01js4fhtdjfyhvg8rxe5nmmbme'), (b'Server', b'cloudflare'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:26:36,736 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-18 18:26:36,737 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:26:36,737 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:26:36,737 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:26:36,738 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:26:36,738 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "400 Bad Request" Headers({'date': 'Fri, 18 Apr 2025 12:56:36 GMT', 'content-type': 'application/json', 'content-length': '707', 'connection': 'keep-alive', 'cf-ray': '932452af6e4c549b-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '3046', 'x-ratelimit-reset-requests': '11.453999999s', 'x-ratelimit-reset-tokens': '29.54s', 'x-request-id': 'req_01js4fhtdjfyhvg8rxe5nmmbme', 'server': 'cloudflare', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:26:36,739 - groq._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "D:\krish\llm_app\.venv\Lib\site-packages\groq\_base_client.py", line 999, in _request
+    response.raise_for_status()
+  File "D:\krish\llm_app\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://api.groq.com/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-04-18 18:26:36,754 - groq._base_client - DEBUG - Not retrying
+2025-04-18 18:26:36,754 - groq._base_client - DEBUG - Re-raising status error
+2025-04-18 18:26:37,696 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:41:47,627 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:41:47,627 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:41:47,627 - UI - INFO - Headers
+2025-04-18 18:41:47,627 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:41:47,628 - UI - INFO - LLM-GROQ
+2025-04-18 18:41:47,628 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:41:47,628 - UI - INFO - llama3-8b-8192
+2025-04-18 18:41:48,120 - UI - ERROR - NO API KEY
+2025-04-18 18:41:48,120 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:41:48,121 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:41:48,597 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:41:59,905 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:41:59,906 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:41:59,908 - UI - INFO - Headers
+2025-04-18 18:41:59,909 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:41:59,911 - UI - INFO - LLM-GROQ
+2025-04-18 18:41:59,911 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:41:59,913 - UI - INFO - llama3-8b-8192
+2025-04-18 18:42:00,437 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:42:00,437 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:42:00,438 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:42:00,914 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:42:02,132 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:42:02,133 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:42:02,136 - UI - INFO - Headers
+2025-04-18 18:42:02,136 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:42:02,139 - UI - INFO - LLM-GROQ
+2025-04-18 18:42:02,139 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:42:02,142 - UI - INFO - llama3-8b-8192
+2025-04-18 18:42:02,669 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:42:02,669 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:42:02,670 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:42:03,144 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:42:03,159 - UI - INFO - Graph Initialization
+2025-04-18 18:42:03,160 - UI - INFO - render_process
+2025-04-18 18:42:03,163 - UI - INFO - UI_START
+2025-04-18 18:42:03,165 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:42:03,165 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:42:03,165 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:42:03,165 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:42:03,165 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:42:03,165 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:42:10,846 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:42:10,846 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:42:10,849 - UI - INFO - Headers
+2025-04-18 18:42:10,849 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:42:10,851 - UI - INFO - LLM-GROQ
+2025-04-18 18:42:10,852 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:42:10,854 - UI - INFO - llama3-8b-8192
+2025-04-18 18:42:11,049 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:42:11,049 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:42:11,049 - UI - INFO - Headers
+2025-04-18 18:42:11,049 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:42:11,050 - UI - INFO - LLM-GROQ
+2025-04-18 18:42:11,050 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:42:11,050 - UI - INFO - llama3-8b-8192
+2025-04-18 18:42:11,638 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:42:11,638 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:42:11,638 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:42:12,155 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:42:12,156 - UI - INFO - render_process
+2025-04-18 18:42:12,159 - UI - INFO - UI_START
+2025-04-18 18:42:12,165 - httpcore.connection - DEBUG - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2025-04-18 18:42:12,166 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8C384A7E0>
+2025-04-18 18:42:12,166 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:12,167 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:42:12,167 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:42:12,167 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:42:12,167 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:12,664 - urllib3.connectionpool - DEBUG - Resetting dropped connection: api.smith.langchain.com
+2025-04-18 18:42:13,065 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:42:18,090 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/x-ndjson'), (b'Date', b'Fri, 18 Apr 2025 13:12:18 GMT'), (b'Transfer-Encoding', b'chunked')])
+2025-04-18 18:42:18,090 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-04-18 18:42:18,090 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:42:31,408 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:42:31,408 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:42:31,408 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:42:31,412 - Update-Structure - INFO - Genrated - User Story
+2025-04-18 18:42:31,455 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:42:31,455 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:42:31,455 - UI - INFO - Headers
+2025-04-18 18:42:31,455 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:42:31,456 - UI - INFO - LLM-GROQ
+2025-04-18 18:42:31,456 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:42:31,456 - UI - INFO - llama3-8b-8192
+2025-04-18 18:42:31,948 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:42:31,948 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:42:31,948 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:42:32,409 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:42:32,455 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:42:32,457 - UI - INFO - render_process
+2025-04-18 18:42:32,466 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:42:32,467 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:42:32,467 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:42:32,467 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:42:32,467 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:42:32,467 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:42:37,778 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:42:37,779 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:42:37,781 - UI - INFO - Headers
+2025-04-18 18:42:37,782 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:42:37,784 - UI - INFO - LLM-GROQ
+2025-04-18 18:42:37,785 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:42:37,787 - UI - INFO - llama3-8b-8192
+2025-04-18 18:42:38,304 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:42:38,304 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:42:38,305 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:42:38,772 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:42:38,773 - UI - INFO - render_process
+2025-04-18 18:42:38,779 - Update-Structure - INFO - User_Story_Sentiment
+2025-04-18 18:42:38,783 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Understand the feedback.'}, {'role': 'user', 'content': 'Feedback: '}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Feedback'}}, 'tools': [{'type': 'function', 'function': {'name': 'Feedback', 'description': '', 'parameters': {'properties': {'grade': {'enum': ['positive', 'negative'], 'type': 'string'}, 'user_feedback': {'description': 'Holds the feedback input gathered from client or agent generated', 'type': 'string'}}, 'required': ['grade', 'user_feedback'], 'type': 'object'}}}]}}
+2025-04-18 18:42:38,783 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:42:38,784 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-18 18:42:38,847 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8C2825730>
+2025-04-18 18:42:38,847 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002D8C27F69D0> server_hostname='api.groq.com' timeout=None
+2025-04-18 18:42:38,882 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8C28251C0>
+2025-04-18 18:42:38,883 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:38,883 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:42:38,883 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:42:38,883 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:42:38,883 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:39,396 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 18 Apr 2025 13:12:39 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'93246a3a0b7854c5-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14399'), (b'X-Ratelimit-Remaining-Tokens', b'5982'), (b'X-Ratelimit-Reset-Requests', b'6s'), (b'X-Ratelimit-Reset-Tokens', b'180ms'), (b'X-Request-Id', b'req_01js4gf83ee2bsndxxn4thr2qg'), (b'Set-Cookie', b'__cf_bm=HEuaoTIKbcVL4cKe4fiJCRHts7xn40oKATyVQK2T34I-1744981959-1.0.1.1-UZh8GjRn3ZH4wXKkR5uQMsMP0F365AXNsF9sTwMWmvA9FP2UChWwcC__ETJ4JfhUeSWq4Rg3STB6ARQTUfRjSuFHaJc1jlao_B8yx2V_su8; path=/; expires=Fri, 18-Apr-25 13:42:39 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:42:39,398 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 18:42:39,398 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:42:39,400 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:42:39,400 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:42:39,400 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:42:39,401 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 18 Apr 2025 13:12:39 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '93246a3a0b7854c5-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '5982', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '180ms', 'x-request-id': 'req_01js4gf83ee2bsndxxn4thr2qg', 'set-cookie': '__cf_bm=HEuaoTIKbcVL4cKe4fiJCRHts7xn40oKATyVQK2T34I-1744981959-1.0.1.1-UZh8GjRn3ZH4wXKkR5uQMsMP0F365AXNsF9sTwMWmvA9FP2UChWwcC__ETJ4JfhUeSWq4Rg3STB6ARQTUfRjSuFHaJc1jlao_B8yx2V_su8; path=/; expires=Fri, 18-Apr-25 13:42:39 GMT; domain=.groq.com; HttpOnly; Secure; SameSite=None', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:42:39,422 - Update-Structure - INFO - Perform Sentiment Analysis
+2025-04-18 18:42:39,422 - Update-Structure - INFO - Sentiment - Positive
+2025-04-18 18:42:39,437 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': "You are a **Senior Product Owner** tasked with refining and validating the provided user story. Use the following inputs to guide your feedback:\n                                ### **Inputs:**\n                                1. **User Story:** <think>\nOkay, I need to evaluate this user story using INVEST. Let me go through each criterion step by step.\n\nFirst, Independent: The test doesn't depend on external factors like network issues or file permissions because it's all client-side. So yes, it's independent.\n\nNegotiable: There might be some flexibility in how smooth the animation is or where the pipes appear. That means it's negotiable.\n\nValuable: It definitely provides a fun and engaging experience for users, which is great value.\n\nEstimable: We can probably figure out how long testing will take by looking at similar games or our own past projects.\n\nSmall: Testing on just one device like an iPhone makes sense because if it doesn't work there, we know to fix that specific case.\n\nTestable: There are clear visual indicators and sounds to test—like seeing the bird move up when you press a key and hearing the score increase.\n</think>\n\n### User Story:\n**As** a game developer,  \n**I want** to create a simple bird-flapping game with basic mechanics,  \n**So that** users can enjoy the game on both desktop and mobile devices.\n\n---\n\n### Acceptance Criteria:\n1. The bird moves upward when the player clicks or presses the spacebar.\n2. Gravity pulls the bird downward when no input is provided.\n3. The game ends if the bird collides with a pipe or the ground.\n4. Pipes should appear at random heights and move from right to left.\n5. There should be a gap between pipes for the bird to pass through.\n6. The player earns 1 point for each pipe successfully passed.\n7. The score is displayed on the screen during gameplay.\n8. The game includes simple 2D graphics with a colorful background.\n9. The game includes sound effects: bird flapping, scoring, and game over.\n10. The game works smoothly on both desktop and mobile devices.\n11. After the game ends, players have the option to restart.\n\n---\n\n### INVEST Evaluation:\n\n| **Criterion** | **Evaluation** | **Explanation** |\n|---------------|----------------|-----------------|\n| Independent    | Yes            | The test is client-side only and doesn't depend on external resources or network issues. |\n| Negotiable     | Partially      | While the game logic is fixed, some aspects like animation smoothness could be negotiated. |\n| Valuable       | High          | It provides a fun user experience and contributes to mobile app engagement. |\n| Estimable      | High          | We can estimate effort based on similar projects or previous experiences. |\n| Small          | Yes            | Testing on one device (iPhone) is sufficient for initial validation. |\n| Testable       | Yes            | Clear visual indicators and sound cues allow easy testing. |\n\nThe user story meets most of the INVEST criteria, with some room for negotiation regarding animation quality and additional features like restart functionality or high-score storage which could be added later if needed.\n\n                                ### **Task:**\n                                - Analyze the provided user story for completeness, clarity, and alignment with project goals.\n                                - Refine the user story to ensure it meets the following criteria:\n                                - **Independent:** Can be developed independently of other stories.\n                                - **Negotiable:** Allows for discussion and refinement.\n                                - **Valuable:** Provides clear value to the end user.\n                                - **Estimable:** Can be estimated for effort and complexity.\n                                - **Small:** Is small enough to be completed in a single sprint.\n                                - **Testable:** Includes clear acceptance criteria for validation.\n\n                                ### **Output Format:**\n                                1. **Refined User Story:** Provide the updated user story in the following format:\n                                - **As a [user role], I want to [goal], so that [benefit].**\n                                2. **Acceptance Criteria:** List 2–3 clear and testable acceptance criteria.\n                                3. **Feedback Summary:** Provide a summary of the changes made and why they were necessary.\n\n                                ### **Example Output:**\n                                1. Refined User Story:\n                                    - As a project manager, I want to track project progress, so that I can ensure timely delivery.\n                                2. Acceptance Criteria:\n                                    - The system should allow users to create and update project milestones.\n                                    - The system should display a Gantt chart for visualizing project timelines.\n                                    - The system should send email notifications for overdue tasks.\n                                3. Feedback Summary:\n                                    - The user story was refined to include a clear goal and benefit.\n                                    - Acceptance criteria were added to ensure the story is testable and aligns with project objectives.\n                                Refine the user story based on the above criteria and format."}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-18 18:42:39,440 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:42:39,441 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:39,442 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:42:39,442 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:42:39,443 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:42:39,443 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:39,597 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:42:40,227 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 18 Apr 2025 13:12:40 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'93246a3d7d7554c5-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14398'), (b'X-Ratelimit-Remaining-Tokens', b'3702'), (b'X-Ratelimit-Reset-Requests', b'11.466s'), (b'X-Ratelimit-Reset-Tokens', b'22.976s'), (b'X-Request-Id', b'req_01js4gf8m4ess8cfphwz40tnc2'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:42:40,228 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 18:42:40,228 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:42:40,229 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:42:40,230 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:42:40,230 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:42:40,230 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 18 Apr 2025 13:12:40 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '93246a3d7d7554c5-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '3702', 'x-ratelimit-reset-requests': '11.466s', 'x-ratelimit-reset-tokens': '22.976s', 'x-request-id': 'req_01js4gf8m4ess8cfphwz40tnc2', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:42:40,247 - Update-Structure - INFO - System_FeedBack - User Story
+2025-04-18 18:42:40,267 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are an AI software architect tasked with generating a **Software Design Document (SDD)** based on **approved user stories**:**Refined User Story:**\nAs a game developer, I want to create a simple, visually appealing bird-flapping game with basic mechanics, so that users can enjoy a fun and engaging experience on both desktop and mobile devices.\n\n**Acceptance Criteria:**\n\n1. The game includes a flapping bird character that moves upward when the player clicks or presses the spacebar, and descends when no input is provided due to gravity.\n2. The game features randomly generated pipes that move from right to left, with a gap between them for the bird to pass through.\n3. The game ends if the bird collides with a pipe or the ground, and displays a "Game Over" screen with an option to restart.\n\n**Feedback Summary:**\nThe original user story was refined to make it more specific and focused on the core features of the game. The acceptance criteria were updated to ensure that the story is testable and aligned with the project goals. The refined user story provides a clear goal and benefit for the game developer, while the acceptance criteria provide a clear understanding of what needs to be developed..  \n                                            ### **Task:**  \n                                            Create both **Functional Design Document (FDD)** and **Technical Design Document (TDD)**.  \n\n                                            #### **1. Functional Design Document (FDD)**  \n                                            - **Overview:** High-level system summary.  \n                                            - **User Roles & Permissions:** Define roles and access.  \n                                            - **User Journeys & Flows:** Describe interactions.  \n                                            - **Functional Requirements:** Feature breakdown with acceptance criteria.  \n                                            - **UI/UX Considerations:** Expected interface and usability.  \n\n                                            #### **2. Technical Design Document (TDD)**  \n                                            - **System Architecture:** Define structure (e.g., Microservices, Monolith).  \n                                            - **Tech Stack:** Languages, frameworks, and tools.  \n                                            - **Data Model & APIs:** Database schema, API endpoints, and security.  \n                                            - **Scalability & Deployment:** Performance strategies, CI/CD, and cloud infrastructure.  \n\n                                            ### **Output:**  \n                                            Provide a clear, structured SDD covering both **FDD** and **TDD** for developer and stakeholder review. \n                                            Also provide a Data flow diagram: \n                                                dfd 1 #diageam\n                                                dfd 2 #diageam\n                                                dfd 3 #diageam\n                                            Data base diagram. #diageam\n                                            Provide the output in markdown.'}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7}}
+2025-04-18 18:42:40,270 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:42:40,270 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:40,271 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:42:40,272 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:42:40,272 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:42:40,273 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:40,406 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:42:41,226 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:42:41,603 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 18 Apr 2025 13:12:41 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'93246a42a98954c5-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14397'), (b'X-Ratelimit-Remaining-Tokens', b'3114'), (b'X-Ratelimit-Reset-Requests', b'17.169999999s'), (b'X-Ratelimit-Reset-Tokens', b'28.857s'), (b'X-Request-Id', b'req_01js4gf9e3e2c9yymjs0a5nfbf'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:42:41,605 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 18:42:41,605 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:42:41,607 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:42:41,607 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:42:41,607 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:42:41,608 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 18 Apr 2025 13:12:41 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '93246a42a98954c5-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14397', 'x-ratelimit-remaining-tokens': '3114', 'x-ratelimit-reset-requests': '17.169999999s', 'x-ratelimit-reset-tokens': '28.857s', 'x-request-id': 'req_01js4gf9e3e2c9yymjs0a5nfbf', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:42:41,617 - Update-Structure - INFO - Created - Blue Print
+2025-04-18 18:42:41,626 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:42:41,627 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:42:41,627 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:42:41,627 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:42:41,627 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:42:41,627 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:42:42,502 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:42:44,803 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:42:44,803 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:42:44,804 - UI - INFO - Headers
+2025-04-18 18:42:44,804 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:42:44,805 - UI - INFO - LLM-GROQ
+2025-04-18 18:42:44,805 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:42:44,805 - UI - INFO - llama3-8b-8192
+2025-04-18 18:42:45,274 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:42:45,274 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:42:45,274 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:42:45,744 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:42:45,745 - UI - INFO - render_process
+2025-04-18 18:42:45,753 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:42:45,753 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:42:45,753 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:42:45,753 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2025-04-18 18:42:45,753 - PIL.PngImagePlugin - DEBUG - STREAM b'sRGB' 41 1
+2025-04-18 18:42:45,753 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 54 8192
+2025-04-18 18:42:57,211 - CONFIG - DEBUG - Hackathon Project --
+2025-04-18 18:42:57,211 - CONFIG - DEBUG - End To End Software Development Life Cycle
+2025-04-18 18:42:57,214 - UI - INFO - Headers
+2025-04-18 18:42:57,214 - CONFIG - DEBUG - ['Groq', 'Ollama']
+2025-04-18 18:42:57,216 - UI - INFO - LLM-GROQ
+2025-04-18 18:42:57,217 - CONFIG - DEBUG - ['llama3-8b-8192', 'llama3-70b-8192', 'gemma-7b-i']
+2025-04-18 18:42:57,218 - UI - INFO - llama3-8b-8192
+2025-04-18 18:42:57,736 - UI - INFO - GROQ_API_KEY
+2025-04-18 18:42:57,736 - CONFIG - DEBUG - ['Ollama']
+2025-04-18 18:42:57,737 - CONFIG - DEBUG - ['deepseek-r1:7b']
+2025-04-18 18:42:58,236 - UI - INFO - LLM_reasoning_Ollama
+2025-04-18 18:42:58,237 - UI - INFO - render_process
+2025-04-18 18:42:58,245 - Update-Structure - INFO - Feedback - Blue Print
+2025-04-18 18:42:58,251 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'Understand the feedback.'}, {'role': 'user', 'content': 'Feedback: '}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Feedback'}}, 'tools': [{'type': 'function', 'function': {'name': 'Feedback', 'description': '', 'parameters': {'properties': {'grade': {'enum': ['positive', 'negative'], 'type': 'string'}, 'user_feedback': {'description': 'Holds the feedback input gathered from client or agent generated', 'type': 'string'}}, 'required': ['grade', 'user_feedback'], 'type': 'object'}}}]}}
+2025-04-18 18:42:58,251 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:42:58,251 - httpcore.connection - DEBUG - close.started
+2025-04-18 18:42:58,252 - httpcore.connection - DEBUG - close.complete
+2025-04-18 18:42:58,252 - httpcore.connection - DEBUG - connect_tcp.started host='api.groq.com' port=443 local_address=None timeout=None socket_options=None
+2025-04-18 18:42:58,286 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8ED1D5DC0>
+2025-04-18 18:42:58,286 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002D8C27F69D0> server_hostname='api.groq.com' timeout=None
+2025-04-18 18:42:58,319 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002D8ED236B40>
+2025-04-18 18:42:58,320 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:58,320 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:42:58,320 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:42:58,320 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:42:58,320 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:58,874 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 18 Apr 2025 13:12:58 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'93246ab37a9954ec-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14399'), (b'X-Ratelimit-Remaining-Tokens', b'4065'), (b'X-Ratelimit-Reset-Requests', b'6s'), (b'X-Ratelimit-Reset-Tokens', b'19.35s'), (b'X-Request-Id', b'req_01js4gfv25etrr5p7wmqqf2wzs'), (b'Server', b'cloudflare'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:42:58,875 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 18:42:58,876 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:42:58,877 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:42:58,877 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:42:58,877 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:42:58,877 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "200 OK" Headers({'date': 'Fri, 18 Apr 2025 13:12:58 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'cf-ray': '93246ab37a9954ec-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14399', 'x-ratelimit-remaining-tokens': '4065', 'x-ratelimit-reset-requests': '6s', 'x-ratelimit-reset-tokens': '19.35s', 'x-request-id': 'req_01js4gfv25etrr5p7wmqqf2wzs', 'server': 'cloudflare', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:42:58,900 - Update-Structure - INFO - Perform Sentiment Analysis
+2025-04-18 18:42:58,900 - Update-Structure - INFO - Sentiment - Positive
+2025-04-18 18:42:58,919 - groq._base_client - DEBUG - Request options: {'method': 'post', 'url': '/openai/v1/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': 'You are an advanced AI software engineer tasked with generating production-ready code for a software project. Use the following inputs to guide your code generation:\n                                        ### **Inputs:**\n                                        1. **Tech Stack:** Python, Django, Streamlit\n                                        2. **User Story:** **Refined User Story:**\nAs a game developer, I want to create a simple, visually appealing bird-flapping game with basic mechanics, so that users can enjoy a fun and engaging experience on both desktop and mobile devices.\n\n**Acceptance Criteria:**\n\n1. The game includes a flapping bird character that moves upward when the player clicks or presses the spacebar, and descends when no input is provided due to gravity.\n2. The game features randomly generated pipes that move from right to left, with a gap between them for the bird to pass through.\n3. The game ends if the bird collides with a pipe or the ground, and displays a "Game Over" screen with an option to restart.\n\n**Feedback Summary:**\nThe original user story was refined to make it more specific and focused on the core features of the game. The acceptance criteria were updated to ensure that the story is testable and aligned with the project goals. The refined user story provides a clear goal and benefit for the game developer, while the acceptance criteria provide a clear understanding of what needs to be developed.\n                                        3. **Design Document:** **Software Design Document (SDD)**\n\n**Functional Design Document (FDD)**\n\n### Overview\n\nThe Bird-Flapping Game is a visually appealing, simple, and engaging game that allows users to experience a fun and thrilling experience on both desktop and mobile devices. The game features a bird character that flaps its wings to move upward and descends due to gravity, while avoiding obstacles like pipes and the ground.\n\n### User Roles & Permissions\n\n1. **Game Developer**: The primary user of the game, responsible for creating and maintaining the game.\n2. **User**: The end-user who plays the game on desktop or mobile devices.\n\n### User Journeys & Flows\n\n1. **Login/Start Game**:\n\t* User opens the game on their device.\n\t* The game prompts the user to start a new game or load a saved game.\n\t* The user selects an option and the game begins.\n2. **Gameplay**:\n\t* The user controls the bird character by clicking or pressing the spacebar to flap its wings.\n\t* The bird moves upward and descends due to gravity.\n\t* The game features randomly generated pipes that move from right to left.\n\t* The user must avoid colliding with pipes or the ground.\n3. **Game Over**:\n\t* If the bird collides with a pipe or the ground, the game ends.\n\t* The game displays a "Game Over" screen with an option to restart.\n\n### Functional Requirements\n\n1. The game includes a flapping bird character that moves upward when the player clicks or presses the spacebar, and descends when no input is provided due to gravity.\n\t* Acceptance Criteria: The bird character moves upward when the player inputs, and descends when no input is provided.\n2. The game features randomly generated pipes that move from right to left, with a gap between them for the bird to pass through.\n\t* Acceptance Criteria: The pipes are randomly generated, move from right to left, and have a gap between them.\n3. The game ends if the bird collides with a pipe or the ground, and displays a "Game Over" screen with an option to restart.\n\t* Acceptance Criteria: The game ends when the bird collides with a pipe or the ground, and displays a "Game Over" screen with an option to restart.\n\n### UI/UX Considerations\n\n* The game features a simple, visually appealing interface with minimal distractions.\n* The user can easily control the bird character using the spacebar or mouse click.\n* The game provides clear feedback to the user through visual and audio cues.\n\n**Technical Design Document (TDD)**\n\n### System Architecture\n\nThe Bird-Flapping Game will be built as a single, monolithic application using a responsive web design (RWD) approach to ensure compatibility across various devices and platforms.\n\n### Tech Stack\n\n* Frontend: HTML5, CSS3, JavaScript (using React or Angular)\n* Backend: Node.js, Express.js\n* Database: LocalStorage or IndexedDB for storing game data\n* APIs: None\n\n### Data Model & APIs\n\n* The game stores data locally using LocalStorage or IndexedDB.\n* There are no external APIs used in this game.\n\n### Scalability & Deployment\n\n* The game will be deployed on a cloud-based platform (e.g., AWS, Google Cloud, Microsoft Azure).\n* The game will be optimized for performance using techniques such as caching, lazy loading, and image compression.\n* The game will be scalable to handle a large number of users using load balancing and auto-scaling.\n\n### Data Flow Diagrams (DFDs)\n\n[DFD 1: Game Initialization]\n```\n+---------------+\n|  Client  |\n+---------------+\n       |\n       |  Start Game\n       v\n+---------------+\n|  Server  |\n+---------------+\n       |\n       |  Initialize Game\n       v\n+---------------+\n|  Database  |\n+---------------+\n```\n\n[DFD 2: Game Logic]\n```\n+---------------+\n|  Client  |\n+---------------+\n       |\n       |  User Input\n       v\n+---------------+\n|  Server  |\n+---------------+\n       |\n       |  Update Game State\n       v\n+---------------+\n|  Game Logic  |\n+---------------+\n       |\n       |  Check Collisions\n       v\n+---------------+\n|  Server  |\n+---------------+\n       |\n       |  Update Game State\n       v\n+---------------+\n|  Client  |\n+---------------+\n```\n\n[DFD 3: Game Over]\n```\n+---------------+\n|  Client  |\n+---------------+\n       |\n       |  Game Over\n       v\n+---------------+\n|  Server  |\n+---------------+\n       |\n       |  Display Game Over Screen\n       v\n+---------------+\n|  Client  |\n+---------------+\n```\n\n### Database Diagram\n\n[Database Diagram]\n\nThe game uses a local storage database to store game data, including the player\'s score and high score.\n\n**Output**\n\nThis SDD provides a clear, structured design for the Bird-Flapping Game, covering both functional and technical aspects. The FDD outlines the user roles, user journeys, and functional requirements, while the TDD details the system architecture, tech stack, data model, and scalability strategy. The data flow diagrams and database diagram provide a visual representation of the game\'s architecture and data flow.\n\n                                        ### **Requirements:**\n                                        - Generate a complete **file structure** for the project, ensuring modularity and scalability.\n                                        - Write code for each file in the project, adhering to the specified tech stack and aligning with the user story and design document.\n                                        - Ensure the code follows industry best practices, including:\n                                        - Readability and maintainability.\n                                        - Performance optimization.\n                                        - Security compliance.\n                                        - Proper error handling and logging.\n\n                                        ### **Output Format:**\n                                        1. **File Structure:** Provide a hierarchical representation of the project folder structure.\n                                        2. For each file in the project:\n                                        - **File Name:** Name of the file.\n                                        - **Code:** Include the complete code for the file.\n\n                                        ### **Additional Notes:**\n                                        - Use meaningful variable and function names.\n                                        - Add inline comments and documentation where necessary.\n                                        - Ensure the code is ready for deployment and includes any required configuration files.\n                                        - Provide the output in **Markdown** format for easy readability.\n                                        \n                                        Generate the code based on the above requirements and format.'}], 'model': 'llama3-8b-8192', 'n': 1, 'stop': None, 'stream': False, 'temperature': 0.7, 'tool_choice': {'type': 'function', 'function': {'name': 'Code_Format'}}, 'tools': [{'type': 'function', 'function': {'name': 'Code_Format', 'description': '', 'parameters': {'properties': {'file_structure': {'description': 'Represents the file_name in hierarchical format in markdown.', 'type': 'string'}, 'code': {'description': 'All code present under different files, with file_name in markdown.', 'items': {'properties': {'file_name': {'description': 'name of code file', 'type': 'string'}, 'code': {'description': 'Code under the file_name.', 'type': 'string'}}, 'required': ['file_name', 'code'], 'type': 'object'}, 'type': 'array'}}, 'required': ['file_structure', 'code'], 'type': 'object'}}}]}}
+2025-04-18 18:42:58,921 - groq._base_client - DEBUG - Sending HTTP Request: POST https://api.groq.com/openai/v1/chat/completions
+2025-04-18 18:42:58,922 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:58,923 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-18 18:42:58,923 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-18 18:42:58,924 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-18 18:42:58,924 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-18 18:42:59,135 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:42:59,963 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-04-18 18:43:01,166 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Date', b'Fri, 18 Apr 2025 13:13:00 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'545'), (b'Connection', b'keep-alive'), (b'CF-Ray', b'93246ab74d1454ec-DEL'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Cache-Control', b'private, max-age=0, no-store, no-cache, must-revalidate'), (b'Vary', b'Origin, Accept-Encoding'), (b'X-Groq-Region', b'gcp-asia-south1'), (b'X-Ratelimit-Limit-Requests', b'14400'), (b'X-Ratelimit-Limit-Tokens', b'6000'), (b'X-Ratelimit-Remaining-Requests', b'14398'), (b'X-Ratelimit-Remaining-Tokens', b'1143'), (b'X-Ratelimit-Reset-Requests', b'11.389999999s'), (b'X-Ratelimit-Reset-Tokens', b'48.563s'), (b'X-Request-Id', b'req_01js4gfvn8ets8envt4r5x9mzt'), (b'Server', b'cloudflare'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-04-18 18:43:01,167 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-18 18:43:01,168 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-18 18:43:01,168 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-18 18:43:01,169 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-18 18:43:01,169 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-18 18:43:01,170 - groq._base_client - DEBUG - HTTP Response: POST https://api.groq.com/openai/v1/chat/completions "400 Bad Request" Headers({'date': 'Fri, 18 Apr 2025 13:13:00 GMT', 'content-type': 'application/json', 'content-length': '545', 'connection': 'keep-alive', 'cf-ray': '93246ab74d1454ec-DEL', 'cf-cache-status': 'DYNAMIC', 'cache-control': 'private, max-age=0, no-store, no-cache, must-revalidate', 'vary': 'Origin, Accept-Encoding', 'x-groq-region': 'gcp-asia-south1', 'x-ratelimit-limit-requests': '14400', 'x-ratelimit-limit-tokens': '6000', 'x-ratelimit-remaining-requests': '14398', 'x-ratelimit-remaining-tokens': '1143', 'x-ratelimit-reset-requests': '11.389999999s', 'x-ratelimit-reset-tokens': '48.563s', 'x-request-id': 'req_01js4gfvn8ets8envt4r5x9mzt', 'server': 'cloudflare', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-04-18 18:43:01,170 - groq._base_client - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "D:\krish\llm_app\.venv\Lib\site-packages\groq\_base_client.py", line 999, in _request
+    response.raise_for_status()
+  File "D:\krish\llm_app\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://api.groq.com/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-04-18 18:43:01,172 - groq._base_client - DEBUG - Not retrying
+2025-04-18 18:43:01,173 - groq._base_client - DEBUG - Re-raising status error
+2025-04-18 18:43:02,080 - urllib3.connectionpool - DEBUG - https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34

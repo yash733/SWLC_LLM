@@ -1,9 +1,13 @@
-for executing run -over-streamlit- app\app.py<br>
-for execution over CLI run -- src\test\test.py    #a crude code, only for testing <br>
+for executing run -over-streamlit- app\application.py<br>
+
+src/structure.py --> All the States and Graph functions
+src/share.py --> State variables and Structured output
 
 - Problems <br>
--- Code Generater Prompt needs to be tuned for better code generation. {20% sucess rate at current prompt}<br>
--- Difficulty in creating dynamic ui {wraping streamlit ui over agentic ai, such that streamlit flows with created StateGraph}<br>
+-- File "D:\krish\llm_app\.venv\Lib\site-packages\groq\_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '<tool-use>\n{\n  "tool_calls": [\n    {\n      "id": "pending",\n      "type": "function",\n      "function": {\n        "name": "Code_Format",\n        "parameters": {\n          "code": "Code for bird-flapping game",\n          "file_name": "main.py"\n        }\n      }\n    }\n  ]\n}\n</tool-use>'}}
+During task with name 'Generate Code' and id 'ee335b11-c8f5-3201-497d-88fd6ba8e9f4'<br>
 
 ![flow](https://github.com/user-attachments/assets/581cbe1d-1bd7-4038-b1bb-492a50b783b2)
 
