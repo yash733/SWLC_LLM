@@ -18,7 +18,8 @@ During task with name 'Generate Code' and id 'ee335b11-c8f5-3201-497d-88fd6ba8e9
 
 ![image](https://github.com/user-attachments/assets/4b922e8f-2828-48b0-b746-7c93315688a6)
 
-### Update
+----
+## Update
 ![image](https://github.com/user-attachments/assets/661b28b6-9f71-4661-91c5-c94b320613e2)
 ![image](https://github.com/user-attachments/assets/6616fb3d-cd97-4c4a-b147-4a73ebe45279)
 ![image](https://github.com/user-attachments/assets/a938435b-7744-48d4-8718-8a724e03a40f)
