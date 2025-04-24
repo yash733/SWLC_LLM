@@ -7,9 +7,9 @@ class State(TypedDict):
     user_feedback : str
     # system_feedback : str
     blue_print : str
-    code : str
+    code_data : str
     file_structure : str
-    file_name : str
+    # file_name : str
     test_case : str
     rout : Literal['problem','no problem']
     tech_stack : list[str]

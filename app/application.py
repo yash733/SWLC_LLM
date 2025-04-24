@@ -83,17 +83,17 @@ class UI:
         #----- Sidebar for metadata -----
         llm_selction =  LLM_Selection(self.user_controls, self.config)
         self.user_controls = llm_selction.sidebar()
-        print("-"*100)
-        print(self.user_controls)
+        # print("-"*100)
+        # print(self.user_controls)
 
         #----- Initialize graph -----#        
         if self.user_controls.get('API_KEY') or self.user_controls['LLM'] == 'Ollama':
 
             if st.session_state.model and st.session_state.reasoning_model:
-                print("LLM corr")
+                # print("LLM corr")
                 #----- graph.invoke() -----#
                 if "work_flow" not in st.session_state: 
-                    print("Work Flow")
+                    # print("Work Flow")
                     graph_instance = graph_node(st.session_state.model, st.session_state.reasoning_model)
                     st.session_state.work_flow = graph_instance.graph(State)
                     logui.info("Graph Initialization")
@@ -164,7 +164,7 @@ class UI:
                     state = st.session_state.work_flow.get_state(st.session_state.config)  # Snapshot
                     st.markdown("""
                         <div style="background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; font-size: 18px; font-weight: bold;">
-                        ✅ Code
+                        ✅ File Structure
                         </div>
                     """, unsafe_allow_html=True)
                     #----- Parsing Code -----#
@@ -173,12 +173,13 @@ class UI:
                     #     st.markdown(f"### File: {file.file_name}")
                     #     # code
                     #     st.markdown(file.code)
-                    st.markdown(state.values.get('code'))
+                    st.write(state.values.get('code_data'))
 
                     code_feedback = st.text_input('Provide Your Feedback: ', key = 'Code Review')
                     # with st.expander('Meta data'):
                     #     parsed_code = ast.literal_eval(state.values.get('code'))
                     #     st.code(parsed_code.code)
+                    
                     if st.button('Proceed', key='generate code'):
                         st.session_state.work_flow.update_state(config=st.session_state.config, values={'user_feedback': code_feedback})
                         st.session_state.work_flow.invoke(None, config=st.session_state.config)
@@ -191,29 +192,21 @@ class UI:
                     
                     st.header('Final Output: ')
                     st.write(state.values.get('file_structure'))
-                    st.write(state.values.get('code'))
+                    st.write(state.values.get('code_data'))
                 
                 # Add a button on the right-hand side using HTML and CSS
-                st.markdown("""
-                    <div style="display: flex; justify-content: flex-end;">
-                        <form action="" method="post">
-                            <button style="background-color: #FF0000; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" type="submit">
-                                Clear Cache
-                            </button>
-                        </form>
-                    </div>
-                """, unsafe_allow_html=True)
-
-                # Logic to clear session state when the button is clicked
-                if st.session_state.get("clear_cache", False):
-                    if st.confirm("Are you sure you want to clear the cache?"):
-                        st.session_state.clear()
-                        st.rerun()
+                with st.sidebar:
+                    if st.button('Clear Cache', key='clear_cache'):
+                        if st.session_state.get("clear_cache", False):
+                            if st.confirm("Are you sure you want to clear the cache?"):
+                                st.session_state.clear()
+                                st.rerun()
                 
                 # Add an expander to display the flow diagram
                 with st.expander("View Workflow Diagram"):
-                    st.image("flow.png", caption="Workflow Diagram", use_column_width=True)
+                    st.image("flow.png", caption="Workflow Diagram", use_container_width=True)
                 
+
 # Create an instance of the UI class and run the app
 
 ui = UI()

@@ -1,6 +1,5 @@
 from langchain_groq import ChatGroq
-from langchain_ollama import OllamaLLM
-import streamlit as st
+from langchain_community.chat_models import ChatOllama
 
 class model:
     def groq_llm(model_name:str):
@@ -8,5 +7,5 @@ class model:
         return model
 
     def ollama_llm(model_name:str):
-        model = OllamaLLM(model = model_name)
+        model = ChatOllama(model = model_name)
         return model

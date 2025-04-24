@@ -38,6 +38,7 @@ class LLM_Selection:
             
             # ----- Ollama -----#
             elif self.user_controls['LLM'] == 'Ollama':
+                api = True
                 logui.info('LLM-OLLAMA')
                 self.user_controls['Model'] = st.selectbox(label= 'Choose Model', options= self.config.get_ollama_model_options(), key="LLM_MODEL")
                 logui.info(self.user_controls['Model'])
@@ -51,9 +52,9 @@ class LLM_Selection:
                 st.session_state.reasoning_model = model.ollama_llm(self.user_controls['Reasoning_Model'])  #{'type':'Ollama', 'model':self.user_controls['Reasoning_Model']}
                 logui.info('LLM_reasoning_Ollama')
             
-            if st.session_state.save == False and api == True:
-                print('*'*50)
-                print(self.user_controls)
+            if st.session_state.save == False and api:
+                # print('*'*50)
+                # print(self.user_controls)
                 if st.button('Save', key='save12'): 
                     st.session_state.save = True
                     return self.user_controls

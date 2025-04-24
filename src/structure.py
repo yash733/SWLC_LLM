@@ -4,6 +4,9 @@ from dotenv import load_dotenv
 from langgraph.graph import START, END, StateGraph
 from langgraph.checkpoint.memory import MemorySaver
 import streamlit as st
+from langchain.output_parsers import PydanticOutputParser
+from langchain_ollama import ChatOllama
+import re
 
 #----- Dependencies -----#
 from src.share import State, Feedback, Code_Format, Improvement
@@ -22,6 +25,11 @@ def structred_output_llm(model, reasoning_model):
     code_format_model = model.with_structured_output(Code_Format)
     improvement_model = model.with_structured_output(Improvement)
     return feed_back_model, code_format_model, improvement_model
+
+# def extract_all_marked_blocks(text):
+#     pattern = r"\*\*(.*?)\*\*\s*```(?:\w+)?\s*([\s\S]+?)```"
+#     matches = re.findall(pattern, text)
+#     return {title.strip(): content.strip() for title, content in matches}
 
 #----- Setup -----#
 load_dotenv()
@@ -75,7 +83,7 @@ class graph_node:
                                                 Now make necessary changes catering to clients feedback: {state['user_feedback']}"""},
             ])
             log1.info('Implemented Clients feedback - User Story')
-            print(res)
+            log1.debug(res)
         
         else:
             res = self.reasoning_model.invoke([ 
@@ -99,8 +107,8 @@ class graph_node:
                 {'role':'user', 'content':f'User requirement: {state["user_requirement_input"]}'}
             ])
             log1.info('Genrated - User Story')
-            print(res)
-        return {'user_story' : res}
+            log1.debug(res)
+        return {'user_story' : res.content}
         
     #------ Interrupt will happen, input: user feedback -----#
     def User_Story_Sentiment(self, state: State):
@@ -160,7 +168,7 @@ class graph_node:
                                 Refine the user story based on the above criteria and format."""}
         ])
         log1.info('System_FeedBack - User Story')
-        print(res)
+        log1.debug(res)
         return {"user_story" : res.content}
 
     #----------------------------------------
@@ -195,7 +203,7 @@ class graph_node:
                                                 Provide the output in markdown."""}
                                 ])
             log1.info('User Feedback - Blue Print')
-            print(res)
+            log1.debug(res)
 
         else:
             res = self.model.invoke([
@@ -226,7 +234,7 @@ class graph_node:
                                             Provide the output in markdown."""}
             ])
             log1.info('Created - Blue Print')
-            print(res)
+            log1.debug(res)
         return {'blue_print' : res.content}
         #------ Interrupt will happen, input: user feedback -----#
     
@@ -239,11 +247,16 @@ class graph_node:
     #----------------------------------------
     def Generate_Code(self, state: State):
         st.session_state.state = 'Generate Code'
+        llm = ChatOllama(model='llama3')
+
+        #----- Explicit Call, Ollama as facing error 400 from GROQ -----#
+        parser = PydanticOutputParser(pydantic_object=Code_Format)
+        instructions = parser.get_format_instructions()
         if state.get('code'):
-            res = self.code_format_model.invoke([
+            res = llm.invoke([
                 {'role':'system', 'content':f"""You are an advanced AI software engineer tasked with improving existing code. Use the following inputs to guide your improvements:
                                             ### **Inputs:**
-                                            1. **Existing Code:** {state["code"]}
+                                            1. **Existing Code:** {state["code_data"]}
                                             2. **Feedback:** {state["user_feedback"]}
 
                                             ### **Requirements:**
@@ -266,13 +279,14 @@ class graph_node:
                                             - Ensure the code is ready for deployment and includes any required configuration files.
                                             - Provide the output in **Markdown** format for easy readability.
 
-                                            Generate the improved code based on the above requirements and format."""}
+                                            Generate the improved code based on the above requirements and format.
+                                            {instructions}"""}
                         ])
             log1.info('Feedback - Generate Code')
-            print(res)
+            log1.debug(res)
         
         else:
-            res = self.code_format_model.invoke([
+            res = llm.invoke([
                 {'role':'system','content':f"""You are an advanced AI software engineer tasked with generating production-ready code for a software project. Use the following inputs to guide your code generation:
                                         ### **Inputs:**
                                         1. **Tech Stack:** {state["tech_stack"]}
@@ -300,15 +314,29 @@ class graph_node:
                                         - Ensure the code is ready for deployment and includes any required configuration files.
                                         - Provide the output in **Markdown** format for easy readability.
                                         
-                                        Generate the code based on the above requirements and format."""}
+                                        Generate the code based on the above requirements and format.
+                                        {instructions}"""}
                     ])
             log1.info('Generate Code')
-            print(res)
-    #----- File Name -----#
+            log1.debug(res)
+        # print('------------Code-----------\n')
+        # print(type(res),'\n',type(res.content),'\n')
+        # print(res)
+        
+        # res_content = extract_all_marked_blocks(res.content)
             #file_name = [i.file_name for i in res.code]
         # return {'code': res.content}
         # return {'code' : res.code, 'file_structure' : res.file_structure, 'file_name' : file_name}
-        return {'code' : res.code, 'file_structure' : res.file_structure}
+        # possible_keys = ['File Structure:', 'File_Structure:', 'file structure', 'file_structure']
+        # file_structure = None
+
+        # for key in possible_keys:
+        #     if key in res_content:
+        #         file_structure = res_content.pop(key)
+        #         break
+        # print('\nOutput ------------ \n',file_structure )
+        # print('\nCode ---------------\n', res_content )
+        return {'code_data' : res.content }
     
     #------ Interrupt will happen, input: user feedback -----#
     def Code_review(self, state: State):
@@ -316,8 +344,8 @@ class graph_node:
         res = self.model.invoke([
             {'role': 'system', 'content': f"""You are a **Tech Lead** tasked with performing a comprehensive **code review**. Use the following inputs to guide your review:
                                 ### **Inputs:**
-                                1. **Code:** {state["code"]}
-                                2. **File Structure:** {state["file_structure"]}
+                                1. **Code:** {state["code_data"]}
+                                2. **File Structure:** in Code it self
                                 4. **Client Feedback:** {state["user_feedback"]}
 
                                 ### **Review Criteria:**
@@ -370,17 +398,17 @@ class graph_node:
                                 
                                 Provide a detailed code review based on the above criteria and format. """}
                     ])
-        file_structure = self.model.invoke([{'role':'system', 'content':f'Improve the file structure:{state["file_structure"]}, with the help of file name:{state["file_name"]}'}])
+        # file_structure = self.model.invoke([{'role':'system', 'content':f'Improve the file structure:{state["file_structure"]}, such that it represents proper Tree View or Directory Tree Structure'}])
         log1.info('Code review')
-        print(res)
-        return {'user_feedback' : res.content, 'file_structure' : file_structure.content}
+        log1.debug(res)
+        return {'user_feedback' : res.content}
 
     #----------------------------------------
     def Security_review(self, state: State):
         st.session_state.state = 'Security Review'
         res = self.improvement_model.invoke([
             {'role':'system', 'content':f"""
-                                You are a **Security Engineer** performing a **security review** of the provided code: {state["code"]}.  
+                                You are a **Security Engineer** performing a **security review** of the provided code: {state["code_data"]}.  
                                 ### **Task:**  
                                 Analyze the code for potential security vulnerabilities and compliance with best security practices.  
 
@@ -400,14 +428,14 @@ class graph_node:
                                 Provide a **clear, actionable**, and **concise** security review based on these criteria."""}
         ])
         log1.info('Security review')
-        print(res)
+        log1.debug(res)
         return {'user_feedback' : res.improvement_feedback, 'rout' : 'Approve' if res.problems == 'no-problem' else 'Rejected'}
 
     #----------------------------------------
     def Write_test_case(self, state: State):
         st.session_state.state = 'Write Test Case'
         res = self.model.invoke([
-            {'role':'system', 'content':f"""You are a **QA Engineer** responsible for generating **comprehensive test cases** for the given code: {state["code"]} 
+            {'role':'system', 'content':f"""You are a **QA Engineer** responsible for generating **comprehensive test cases** for the given code: {state["code_data"]} 
                                     and using other metadata's: client requiremrnt: {state["user_requirement_input"]}, user_story:{state["user_story"]} and software blue print:{state["blue_print"]}.  
 
                                     ### **Task:**  
@@ -425,7 +453,7 @@ class graph_node:
                                     Generate a structured list of test cases following the format above, ensuring full coverage of functionality, error handling, and performance."""}
         ])
         log1.info('Ceating Test Case')
-        print(res)
+        log1.debug(res)
         return {'test_case' : res.content}
     
     #----------------------------------------
@@ -433,7 +461,7 @@ class graph_node:
         st.session_state.state = 'Test Case Review'
         res = self.improvement_model.invoke([
             {'role':'system', 'content':f"""You are a **Senior QA Engineer** responsible for reviewing test cases for completeness, accuracy, and effectiveness.
-                                    Use variables -- test case:{state["test_case"]} and code:{state["code"]}.
+                                    Use variables -- test case:{state["test_case"]} and code:{state["code_data"]}.
 
                                     ### **Task:**  
                                     Evaluate the provided test cases based on the following criteria:  
@@ -450,14 +478,14 @@ class graph_node:
                                     3. **Suggested Improvements:** Recommendations for missing or incorrect test cases.  """}
                     ])
         log1.info('Appling Test Case')
-        print(res)
+        log1.debug(res)
         return {'user_feedback' : res.improvement_feedback, 'rout' : 'Approve' if res.problems == 'no-problem' else 'Rejected'}
 
     #----------------------------------------
     def Quality_testing(self, state: State):
         st.session_state.state = 'Quality Test'
         res = self.improvement_model.invoke([
-            {'role':'system', 'content':f"""You are a **QA Engineer** responsible for validating code:{state["code"]} using test cases:{state["test_case"]} through execution.  
+            {'role':'system', 'content':f"""You are a **QA Engineer** responsible for validating code:{state["code_data"]} using test cases:{state["test_case"]} through execution.  
 
                                     ### **Task:**  
                                     Review and execute the provided test cases to ensure the application functions as expected. Identify any discrepancies, failures, or improvements needed.  
@@ -481,14 +509,14 @@ class graph_node:
                                     Provide a **summary of findings** highlighting key insights, critical issues, and overall application health.  """}        
                     ])
         log1.info('Performed Quality Testing')
-        print(res)
+        log1.debug(res)
         return {'user_feedback': res.improvement_feedback, 'rout' : 'Approve' if res.problems == 'no-problem' else 'Rejected'}    
 
     #----------------------------------------
     def Final_Review(self, state: State):
         st.session_state.state = 'Final Review'
         res = self.code_format_model.invoke([
-            {'role': 'system', 'content': f'You are a Senior Software Engineer. Perform a comprehensive maintenance update on the following code: {state["code"]}. Ensure the updated code meets the following criteria:\n'
+            {'role': 'system', 'content': f'You are a Senior Software Engineer. Perform a comprehensive maintenance update on the following code: {state["code_data"]}. Ensure the updated code meets the following criteria:\n'
                                   '1. Readability: Refactor the code to improve readability and maintainability.\n'
                                   '2. Efficiency: Optimize the code for better performance.\n'
                                   '3. Standards: Ensure the code adheres to the latest industry standards and best practices.\n'
@@ -498,7 +526,7 @@ class graph_node:
                                   '2. Summary: Provide a summary of the changes made.'}
             ])
         log1.info('Final Review')
-        print(res)
+        log1.debug(res)
         # return {'code': res.content}
         return {'code' : res.code, 'file_structure' : res.file_structure}
 
