@@ -62,7 +62,7 @@ class graph_node:
         # if usery already exists then analize it and use feedback to improve on.
         if state.get('user_story'):
             res = self.reasoning_model.invoke([ 
-                {'role':'assistant', 'content':""" This is for your referance as to how we made our user stories earlier.
+                {'role':'system', 'content':""" This is for your referance as to how we made our user stories earlier.
                                                 You are a senior product manager. Your task is twofold:
                                                 1. **Generate a user story** using the standard format:
                                                     - As a #user_role,

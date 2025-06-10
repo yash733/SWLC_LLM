@@ -6,5 +6,5 @@ python-dotenv
 langserve
 sse_starlette
 langgraph-cli[inmem]
-langchain-groq
-langchain-ollama
+langchain_groq
+langchain_ollama

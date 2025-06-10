@@ -4,3 +4,4 @@ __pycache__
 loadui.py
 .log
 .key
+.ipynb_checkpoints
