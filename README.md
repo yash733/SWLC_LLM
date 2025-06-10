@@ -8,8 +8,6 @@ src/share.py --> State variables and Structured output
 - Problems <br>
 Need to Update few parameters, along with restucturing of prompts and structured output framework.<br>
 
-![image](https://github.com/user-attachments/assets/ce354a31-0af6-4f38-b8ae-82c82a4b5b96)
-
 ![flow](https://github.com/user-attachments/assets/581cbe1d-1bd7-4038-b1bb-492a50b783b2)
 
 ![image](https://github.com/user-attachments/assets/4b922e8f-2828-48b0-b746-7c93315688a6)
