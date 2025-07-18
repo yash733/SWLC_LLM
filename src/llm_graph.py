@@ -9,7 +9,7 @@ from langchain_ollama import ChatOllama
 import re
 
 #----- Dependencies -----#
-from src.share import State, Feedback, Code_Format, Improvement
+from src.schema import State, Feedback, Code_Format, Improvement
 from src.log.logger import logging
 
 #----- LLM -- Model -----#
@@ -62,7 +62,7 @@ class graph_node:
         # if usery already exists then analize it and use feedback to improve on.
         if state.get('user_story'):
             res = self.reasoning_model.invoke([ 
-                {'role':'system', 'content':""" This is for your referance as to how we made our user stories earlier.
+                {'role':'system', 'content':f""" This is for your referance as to how we made our user stories earlier.
                                                 You are a senior product manager. Your task is twofold:
                                                 1. **Generate a user story** using the standard format:
                                                     - As a #user_role,
@@ -78,9 +78,10 @@ class graph_node:
                                                     - Estimable:
                                                     - Small:
                                                     - Testable:
-                                                Provide the evaluation in a markdown checklist format with short explanations for each."""},
-                {'role':'system', 'content':f"""You are a Senior Product Owner. First analyzise the user story: {state['user_story']}. 
-                                                Now make necessary changes catering to clients feedback: {state['user_feedback']}"""},
+                                                Provide the evaluation in a markdown checklist format with short explanations for each.
+                                                You are a Senior Product Owner. First analyzise the user story: {state['user_story']}. 
+                                                Now make necessary changes catering to clients feedback: {state['user_feedback']}
+                                                """}
             ])
             log1.info('Implemented Clients feedback - User Story')
             log1.debug(res)

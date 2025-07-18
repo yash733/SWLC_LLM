@@ -4,8 +4,8 @@ from datetime import datetime
 import time
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from src.structure import graph_node
-from src.share import State
+from src.llm_graph import graph_node
+from src.schema import State
 from app.uiconfig import Config
 from src.Model.model import model
 import ast
