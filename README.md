@@ -1,4 +1,4 @@
-[Prview Video](https://www.youtube.com/watch?v=53AwBWctePM) Video <br>
+[Prview Video](https://www.youtube.com/watch?v=53AwBWctePM) Video. <br>
 
 for executing run -over-streamlit- app\application.py<br>
 
